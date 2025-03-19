@@ -1,0 +1,11 @@
+# Ignore .env file with secrets
+.env
+
+# Ignore all .pyc files
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore cache and temporary files
+__pycache__/
