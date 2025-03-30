@@ -7,3 +7,4 @@ def preprocess_code(code):
     code = re.sub(r"'''[\s\S]*?'''", '', code)  # Remove multi-line docstrings
     code = re.sub(r'\s+', ' ', code).strip()  # Normalize spaces
     return code
+

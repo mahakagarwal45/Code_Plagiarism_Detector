@@ -1,0 +1,12 @@
+{
+    "AST Match": true,
+    "CFG Match": false,
+    "Token Match": false,
+    "Text Similarity Score": 0.3552,
+    "Hash Match": false,
+    "Synthetic Similarity": 0.147,
+    "Structural Similarity": 0.5,
+    "Behavioral Similarity": 0.0,
+    "Final Score": 0.3326,
+    "Plagiarism Decision": "Original"
+}

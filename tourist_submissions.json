@@ -1,0 +1,32 @@
+[
+    {
+        "problem": "RGB Walking",
+        "language": "C++20 (GCC 13-64)",
+        "verdict": "TIME_LIMIT_EXCEEDED",
+        "time": 1741626896
+    },
+    {
+        "problem": "RGB Walking",
+        "language": "C++20 (GCC 13-64)",
+        "verdict": "TIME_LIMIT_EXCEEDED",
+        "time": 1741626887
+    },
+    {
+        "problem": "RGB Walking",
+        "language": "C++20 (GCC 13-64)",
+        "verdict": "WRONG_ANSWER",
+        "time": 1741626884
+    },
+    {
+        "problem": "RGB Walking",
+        "language": "C++20 (GCC 13-64)",
+        "verdict": "WRONG_ANSWER",
+        "time": 1741626855
+    },
+    {
+        "problem": "RGB Walking",
+        "language": "C++20 (GCC 13-64)",
+        "verdict": "WRONG_ANSWER",
+        "time": 1741626275
+    }
+]
