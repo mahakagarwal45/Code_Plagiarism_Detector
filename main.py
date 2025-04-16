@@ -1,13 +1,25 @@
-from compare import compare_codes
+from plagiarism_detector import detect_plagiarism
 
-with open('code1.py', 'rb') as f1:
-    code1 = f1.read().decode('utf-8', errors='ignore')
+if __name__ == "__main__":
+    user_code = "uploads/user_code.py"
+    reference_codes_dir = "reference_codes/"
 
-with open('code2.py', 'rb') as f2:
-    code2 = f2.read().decode('utf-8', errors='ignore')
+    # Optional test cases for behavioral similarity
+    test_cases = [
+        {"input": [2], "expected_output": 4},
+        {"input": [3], "expected_output": 9},
+    ]
 
-# Compare the two code files
-result = compare_codes(code1, code2)
+    results = detect_plagiarism(user_code, reference_codes_dir, test_cases)
 
-# Print the similarity results
-print("🔎 Code Comparison Results:\n", result)
+    for result in results:
+        print(f"\n📄 Compared with: {result['Reference File']}")
+        
+        # Print the entire result to inspect its structure
+        print("Result structure:", result)
+
+        if 'Similarity Scores' in result:
+            for key, value in result["Similarity Scores"].items():
+                print(f"   {key}: {value}")
+        else:
+            print("No similarity scores found for this result.")

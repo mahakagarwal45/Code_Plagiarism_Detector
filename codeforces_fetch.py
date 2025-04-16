@@ -1,11 +1,15 @@
 import requests
 
-# Replace 'tourist' with any top CodeForces user handle
-url = "https://codeforces.com/api/user.status?handle=tourist"
+def fetch_cf_info(username):
+    url = f"https://codeforces.com/api/user.info?handles={username}"
+    res = requests.get(url).json()
 
-response = requests.get(url)
-data = response.json()
+    if res["status"] != "OK":
+        print("❌ Codeforces user not found!")
+        return
 
-# Extract problem names and programming languages
-for submission in data['result'][:10]:  # Limit to 10 submissions
-    print(f"Problem: {submission['problem']['name']} | Language: {submission['programmingLanguage']}")
+    user = res["result"][0]
+    print(f"🎖️ Handle: {user['handle']}")
+    print(f"🏅 Rating: {user.get('rating', 'Unrated')}")
+    print(f"📈 Max Rating: {user.get('maxRating', 'N/A')}")
+    print(f"⚔️ Rank: {user.get('rank', 'N/A')}")

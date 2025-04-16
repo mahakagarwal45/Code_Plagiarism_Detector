@@ -1,5 +1,23 @@
 [
     {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
         "label": "unittest",
         "kind": 6,
         "isExtraImport": true,
@@ -479,12 +497,142 @@
         "documentation": {}
     },
     {
-        "label": "ast",
+        "label": "difflib",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "ast",
-        "description": "ast",
-        "detail": "ast",
+        "importPath": "difflib",
+        "description": "difflib",
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceMatcher",
+        "importPath": "difflib",
+        "description": "difflib",
+        "isExtraImport": true,
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "SequenceMatcher",
+        "importPath": "difflib",
+        "description": "difflib",
+        "isExtraImport": true,
+        "detail": "difflib",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_file",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Api",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "Resource",
+        "importPath": "flask_restful",
+        "description": "flask_restful",
+        "isExtraImport": true,
+        "detail": "flask_restful",
+        "documentation": {}
+    },
+    {
+        "label": "detect_plagiarism",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "detect_plagiarism",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "detect_plagiarism",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
         "documentation": {}
     },
     {
@@ -515,18 +663,18 @@
     },
     {
         "label": "get_ast_structure",
-        "importPath": "ast_parser",
-        "description": "ast_parser",
+        "importPath": "language_parsers.ast_parser",
+        "description": "language_parsers.ast_parser",
         "isExtraImport": true,
-        "detail": "ast_parser",
+        "detail": "language_parsers.ast_parser",
         "documentation": {}
     },
     {
         "label": "get_ast_structure",
-        "importPath": "ast_parser",
-        "description": "ast_parser",
+        "importPath": "language_parsers.ast_parser",
+        "description": "language_parsers.ast_parser",
         "isExtraImport": true,
-        "detail": "ast_parser",
+        "detail": "language_parsers.ast_parser",
         "documentation": {}
     },
     {
@@ -591,23 +739,6 @@
         "description": "cfg_generator",
         "isExtraImport": true,
         "detail": "cfg_generator",
-        "documentation": {}
-    },
-    {
-        "label": "difflib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "difflib",
-        "description": "difflib",
-        "detail": "difflib",
-        "documentation": {}
-    },
-    {
-        "label": "SequenceMatcher",
-        "importPath": "difflib",
-        "description": "difflib",
-        "isExtraImport": true,
-        "detail": "difflib",
         "documentation": {}
     },
     {
@@ -743,12 +874,27 @@
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
+        "label": "ast_parser",
+        "importPath": "language_parsers",
+        "description": "language_parsers",
         "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
+        "detail": "language_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "cpp_parser",
+        "importPath": "language_parsers",
+        "description": "language_parsers",
+        "isExtraImport": true,
+        "detail": "language_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "java_parser",
+        "importPath": "language_parsers",
+        "description": "language_parsers",
+        "isExtraImport": true,
+        "detail": "language_parsers",
         "documentation": {}
     },
     {
@@ -767,6 +913,33 @@
         "importPath": "matplotlib.pyplot",
         "description": "matplotlib.pyplot",
         "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "get_ast_structure",
+        "kind": 2,
+        "importPath": "language_parsers.ast_parser",
+        "description": "language_parsers.ast_parser",
+        "peekOfCode": "def get_ast_structure(code):\n    # Returns AST structure, ignoring variable names, function names, and argument names. \n    try:\n        tree = ast.parse(code)\n        for node in ast.walk(tree):\n            # Ignore function name\n            if isinstance(node, ast.FunctionDef):\n                node.name = \"FUNC\"\n                for arg in node.args.args:\n                    arg.arg = \"VAR\"  # Replace argument names with VAR",
+        "detail": "language_parsers.ast_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_cpp_structure",
+        "kind": 2,
+        "importPath": "language_parsers.cpp_parser",
+        "description": "language_parsers.cpp_parser",
+        "peekOfCode": "def get_cpp_structure(code):\n    try:\n        # Remove comments\n        code = re.sub(r'//.*?$|/\\*.*?\\*/', '', code, flags=re.DOTALL | re.MULTILINE)\n        # Replace variable names and literals\n        code = re.sub(r'\\bint\\b|\\bfloat\\b|\\bdouble\\b|\\bchar\\b|\\bstring\\b', 'TYPE', code)\n        code = re.sub(r'\\\".*?\\\"|\\'.*?\\'|\\b\\d+\\b', 'CONST', code)\n        code = re.sub(r'\\b\\w+\\s*(?=\\()', 'FUNC', code)  # function calls\n        code = re.sub(r'\\b\\w+\\b', 'VAR', code)  # replace remaining words with VAR\n        return code",
+        "detail": "language_parsers.cpp_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_java_structure",
+        "kind": 2,
+        "importPath": "language_parsers.java_parser",
+        "description": "language_parsers.java_parser",
+        "peekOfCode": "def get_java_structure(code):\n    try:\n        # Remove single-line and multi-line comments\n        code = re.sub(r'//.*?$|/\\*.*?\\*/', '', code, flags=re.DOTALL | re.MULTILINE)\n        # Replace types and literals\n        code = re.sub(r'\\bint\\b|\\bfloat\\b|\\bString\\b|\\bdouble\\b|\\bchar\\b', 'TYPE', code)\n        code = re.sub(r'\\\".*?\\\"|\\'.*?\\'|\\b\\d+\\b', 'CONST', code)\n        code = re.sub(r'\\b\\w+\\s*(?=\\()', 'FUNC', code)  # function calls\n        code = re.sub(r'\\b\\w+\\b', 'VAR', code)\n        return code",
+        "detail": "language_parsers.java_parser",
         "documentation": {}
     },
     {
@@ -1211,12 +1384,93 @@
         "documentation": {}
     },
     {
-        "label": "get_ast_structure",
+        "label": "calculate_similarity",
         "kind": 2,
-        "importPath": "ast_parser",
-        "description": "ast_parser",
-        "peekOfCode": "def get_ast_structure(code):\n    # Returns AST structure, ignoring variable names, function names, and argument names. \n    try:\n        tree = ast.parse(code)\n        for node in ast.walk(tree):\n            # Ignore function name\n            if isinstance(node, ast.FunctionDef):\n                node.name = \"FUNC\"\n                for arg in node.args.args:\n                    arg.arg = \"VAR\"  # Replace argument names with VAR",
-        "detail": "ast_parser",
+        "importPath": "utils.similarity_checker",
+        "description": "utils.similarity_checker",
+        "peekOfCode": "def calculate_similarity(code1, code2):\n    return round(SequenceMatcher(None, code1, code2).ratio() * 100, 2)",
+        "detail": "utils.similarity_checker",
+        "documentation": {}
+    },
+    {
+        "label": "PlagiarismCheck",
+        "kind": 6,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "class PlagiarismCheck(Resource):\n    def post(self):\n        try:\n            uploaded_file = request.files['user_code']\n            filename = uploaded_file.filename\n            if not filename:\n                return jsonify({\"status\": \"error\", \"message\": \"No file uploaded.\"})\n            # Save uploaded file\n            user_code_path = os.path.join('uploads', filename)\n            uploaded_file.save(user_code_path)",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "app = Flask(__name__)\napi = Api(app)\nclass PlagiarismCheck(Resource):\n    def post(self):\n        try:\n            uploaded_file = request.files['user_code']\n            filename = uploaded_file.filename\n            if not filename:\n                return jsonify({\"status\": \"error\", \"message\": \"No file uploaded.\"})\n            # Save uploaded file",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "kind": 5,
+        "importPath": "api",
+        "description": "api",
+        "peekOfCode": "api = Api(app)\nclass PlagiarismCheck(Resource):\n    def post(self):\n        try:\n            uploaded_file = request.files['user_code']\n            filename = uploaded_file.filename\n            if not filename:\n                return jsonify({\"status\": \"error\", \"message\": \"No file uploaded.\"})\n            # Save uploaded file\n            user_code_path = os.path.join('uploads', filename)",
+        "detail": "api",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:\n            user_code = request.form.get(\"user_code\")\n            file = request.files.get(\"code_file\")\n            user_code_path = \"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "download_report",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def download_report():\n    return send_file(REPORT_PATH, as_attachment=True)\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\nUPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_FOLDER",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "UPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "REPORT_PATH",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "REPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:",
+        "detail": "app",
         "documentation": {}
     },
     {
@@ -1224,7 +1478,7 @@
         "kind": 6,
         "importPath": "cfg_generator",
         "description": "cfg_generator",
-        "peekOfCode": "class CFGGenerator(ast.NodeVisitor):\n    def __init__(self):\n        self.graph = nx.DiGraph()\n        self.current_node = 0\n        self.counter = 0\n    def add_node(self, label):\n        self.counter += 1\n        self.graph.add_node(self.counter, label=label)\n        if self.current_node != 0:\n            self.graph.add_edge(self.current_node, self.counter)",
+        "peekOfCode": "class CFGGenerator(ast.NodeVisitor):\n    def __init__(self):\n        self.graph = nx.DiGraph()\n        self.current_node = 0\n        self.counter = 0\n    def add_node(self, label):\n        \"\"\"Add a node to the graph with a given label.\"\"\"\n        self.counter += 1\n        self.graph.add_node(self.counter, label=label)\n        if self.current_node != 0:",
         "detail": "cfg_generator",
         "documentation": {}
     },
@@ -1233,7 +1487,7 @@
         "kind": 2,
         "importPath": "cfg_generator",
         "description": "cfg_generator",
-        "peekOfCode": "def generate_cfg(code):\n    try:\n        tree = ast.parse(code)\n        cfg_gen = CFGGenerator()\n        cfg_gen.visit(tree)\n        return cfg_gen.graph\n    except Exception as e:\n        return f\"Error generating CFG: {str(e)}\"",
+        "peekOfCode": "def generate_cfg(code):\n    \"\"\"Generate the control flow graph (CFG) for the given code.\"\"\"\n    try:\n        tree = ast.parse(code)\n        cfg_gen = CFGGenerator()\n        cfg_gen.visit(tree)\n        return cfg_gen.graph\n    except Exception as e:\n        return f\"Error generating CFG: {str(e)}\"",
         "detail": "cfg_generator",
         "documentation": {}
     },
@@ -1265,29 +1519,11 @@
         "documentation": {}
     },
     {
-        "label": "url",
-        "kind": 5,
+        "label": "fetch_cf_info",
+        "kind": 2,
         "importPath": "codeforces_fetch",
         "description": "codeforces_fetch",
-        "peekOfCode": "url = \"https://codeforces.com/api/user.status?handle=tourist\"\nresponse = requests.get(url)\ndata = response.json()\n# Extract problem names and programming languages\nfor submission in data['result'][:10]:  # Limit to 10 submissions\n    print(f\"Problem: {submission['problem']['name']} | Language: {submission['programmingLanguage']}\")",
-        "detail": "codeforces_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "codeforces_fetch",
-        "description": "codeforces_fetch",
-        "peekOfCode": "response = requests.get(url)\ndata = response.json()\n# Extract problem names and programming languages\nfor submission in data['result'][:10]:  # Limit to 10 submissions\n    print(f\"Problem: {submission['problem']['name']} | Language: {submission['programmingLanguage']}\")",
-        "detail": "codeforces_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "codeforces_fetch",
-        "description": "codeforces_fetch",
-        "peekOfCode": "data = response.json()\n# Extract problem names and programming languages\nfor submission in data['result'][:10]:  # Limit to 10 submissions\n    print(f\"Problem: {submission['problem']['name']} | Language: {submission['programmingLanguage']}\")",
+        "peekOfCode": "def fetch_cf_info(username):\n    url = f\"https://codeforces.com/api/user.info?handles={username}\"\n    res = requests.get(url).json()\n    if res[\"status\"] != \"OK\":\n        print(\"❌ Codeforces user not found!\")\n        return\n    user = res[\"result\"][0]\n    print(f\"🎖️ Handle: {user['handle']}\")\n    print(f\"🏅 Rating: {user.get('rating', 'Unrated')}\")\n    print(f\"📈 Max Rating: {user.get('maxRating', 'N/A')}\")",
         "detail": "codeforces_fetch",
         "documentation": {}
     },
@@ -1296,7 +1532,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def is_plagiarized(similarity_score, threshold=0.7):\n    \"\"\"Returns True if similarity score is above threshold.\"\"\"\n    return similarity_score >= threshold\ndef hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg1 = generate_cfg(code1)\n    cfg2 = generate_cfg(code2)",
+        "peekOfCode": "def is_plagiarized(similarity_score, threshold=0.7):\n    \"\"\"Returns True if similarity score is above threshold.\"\"\"\n    return similarity_score >= threshold\ndef hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)",
         "detail": "compare",
         "documentation": {}
     },
@@ -1305,7 +1541,16 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg1 = generate_cfg(code1)\n    cfg2 = generate_cfg(code2)\n    # Check for errors\n    if isinstance(cfg1, str) or isinstance(cfg2, str):\n        return False",
+        "peekOfCode": "def hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)\n        ast2 = get_ast_structure(code2)\n        return ast.dump(ast1) == ast.dump(ast2)\n    except Exception:",
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "compare_ast_structures",
+        "kind": 2,
+        "importPath": "compare",
+        "description": "compare",
+        "peekOfCode": "def compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)\n        ast2 = get_ast_structure(code2)\n        return ast.dump(ast1) == ast.dump(ast2)\n    except Exception:\n        return False\ndef compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"",
         "detail": "compare",
         "documentation": {}
     },
@@ -1314,7 +1559,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg1 = generate_cfg(code1)\n    cfg2 = generate_cfg(code2)\n    # Check for errors\n    if isinstance(cfg1, str) or isinstance(cfg2, str):\n        return False\n    # Check for CFG isomorphism\n    return nx.is_isomorphic(cfg1, cfg2)\ndef calculate_synthetic_similarity(code1, code2):",
+        "peekOfCode": "def compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg1 = generate_cfg(code1)\n    cfg2 = generate_cfg(code2)\n    if isinstance(cfg1, str) or isinstance(cfg2, str):\n        return False\n    return nx.is_isomorphic(cfg1, cfg2)\ndef calculate_synthetic_similarity(code1, code2):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    norm1 = normalize_code(code1)",
         "detail": "compare",
         "documentation": {}
     },
@@ -1323,7 +1568,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def calculate_synthetic_similarity(code1, code2):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    # Normalization\n    normalized_code1 = normalize_code(code1)\n    normalized_code2 = normalize_code(code2)\n    normalized_similarity = SequenceMatcher(None, normalized_code1, normalized_code2).ratio()\n    # Tokenization\n    tokens1 = tokenize_code(code1)\n    tokens2 = tokenize_code(code2)\n    token_match = tokens1 == tokens2",
+        "peekOfCode": "def calculate_synthetic_similarity(code1, code2):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    norm1 = normalize_code(code1)\n    norm2 = normalize_code(code2)\n    normalized_similarity = SequenceMatcher(None, norm1, norm2).ratio()\n    tokens1 = tokenize_code(code1)\n    tokens2 = tokenize_code(code2)\n    token_match = tokens1 == tokens2\n    hash1 = hash_code(code1)\n    hash2 = hash_code(code2)",
         "detail": "compare",
         "documentation": {}
     },
@@ -1332,7 +1577,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def calculate_structural_similarity(code1, code2):\n    \"\"\"Calculate structural similarity using AST and CFG.\"\"\"\n    # AST comparison\n    ast_match = get_ast_structure(code1) == get_ast_structure(code2)\n    # CFG comparison\n    cfg_match = compare_cfg(code1, code2)\n    # Weighted structural score\n    structural_similarity = 0.5 * int(ast_match) + 0.5 * int(cfg_match)\n    return round(structural_similarity, 4)\ndef run_test_cases(code, test_cases):",
+        "peekOfCode": "def calculate_structural_similarity(code1, code2):\n    \"\"\"Calculate structural similarity using AST and CFG.\"\"\"\n    ast_match = compare_ast_structures(code1, code2)\n    cfg_match = compare_cfg(code1, code2)\n    structural_similarity = 0.5 * int(ast_match) + 0.5 * int(cfg_match)\n    return round(structural_similarity, 4), ast_match, cfg_match\ndef run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:",
         "detail": "compare",
         "documentation": {}
     },
@@ -1341,7 +1586,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:\n        inputs, expected_output = case[\"input\"], case[\"expected_output\"]\n        try:\n            # Create a function wrapper dynamically and execute it\n            exec_globals = {}\n            exec(code, exec_globals)\n            func_name = list(exec_globals.keys())[0]  # Get the first defined function",
+        "peekOfCode": "def run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:\n        inputs, expected_output = case[\"input\"], case[\"expected_output\"]\n        try:\n            exec_globals = {}\n            exec(code, exec_globals)\n            func_name = list(exec_globals.keys())[0]\n            func = exec_globals[func_name]",
         "detail": "compare",
         "documentation": {}
     },
@@ -1359,7 +1604,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def compare_codes(code1, code2, test_cases=None):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)\n    # Calculate all similarities\n    synthetic_similarity = calculate_synthetic_similarity(code1, code2)\n    structural_similarity = calculate_structural_similarity(code1, code2)\n    # If no test cases are provided, set behavioral similarity to 0\n    if test_cases:\n        behavioral_similarity = calculate_behavioral_similarity(code1, code2, test_cases)\n    else:",
+        "peekOfCode": "def compare_codes(code1, code2, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)\n    synthetic_similarity, tokens1, tokens2, hash1, hash2 = calculate_synthetic_similarity(code1, code2)\n    structural_similarity, ast_match, cfg_match = calculate_structural_similarity(code1, code2)\n    if test_cases:\n        behavioral_similarity = calculate_behavioral_similarity(code1, code2, test_cases)\n    else:\n        behavioral_similarity = 0.0\n    text_similarity = SequenceMatcher(None, code1, code2).ratio()",
         "detail": "compare",
         "documentation": {}
     },
@@ -1368,16 +1613,16 @@
         "kind": 2,
         "importPath": "generate_plagiarized",
         "description": "generate_plagiarized",
-        "peekOfCode": "def generate_plagiarized_code(original_code):\n    prompt = f\"Rewrite the following code with different variable names, loop structures, and formatting:\\n\\n{original_code}\"\n    response = client.chat.completions.create(\n        model=\"gpt-4\",\n        messages=[{\"role\": \"user\", \"content\": prompt}]\n    )\n    return response.choices[0].message.content",
+        "peekOfCode": "def generate_plagiarized_code(original_code):\n    \"\"\"Generate a plagiarized version of the original code with modifications.\"\"\"\n    prompt = f\"Rewrite the following code with different variable names, loop structures, and formatting:\\n\\n{original_code}\"\n    try:\n        response = openai.Completion.create(\n            model=\"gpt-4\",\n            prompt=prompt,\n            max_tokens=500  # You can adjust max_tokens as needed\n        )\n        return response.choices[0].text.strip()  # Return the modified code",
         "detail": "generate_plagiarized",
         "documentation": {}
     },
     {
-        "label": "client",
+        "label": "openai.api_key",
         "kind": 5,
         "importPath": "generate_plagiarized",
         "description": "generate_plagiarized",
-        "peekOfCode": "client = OpenAI(api_key=\"sk-QpabguAmdr7EzfzEeXe7TxBvByOkulXVpq_vlEM0llT3BlbkFJUkuinrIuRV50If9G-ViPU5vrRUUqIJiQcvQqVzjWIA\")\ndef generate_plagiarized_code(original_code):\n    prompt = f\"Rewrite the following code with different variable names, loop structures, and formatting:\\n\\n{original_code}\"\n    response = client.chat.completions.create(\n        model=\"gpt-4\",\n        messages=[{\"role\": \"user\", \"content\": prompt}]\n    )\n    return response.choices[0].message.content",
+        "peekOfCode": "openai.api_key = os.getenv(\"sk-QpabguAmdr7EzfzEeXe7TxBvByOkulXVpq_vlEM0llT3BlbkFJUkuinrIuRV50If9G-ViPU5vrRUUqIJiQcvQqVzjWIA\")\ndef generate_plagiarized_code(original_code):\n    \"\"\"Generate a plagiarized version of the original code with modifications.\"\"\"\n    prompt = f\"Rewrite the following code with different variable names, loop structures, and formatting:\\n\\n{original_code}\"\n    try:\n        response = openai.Completion.create(\n            model=\"gpt-4\",\n            prompt=prompt,\n            max_tokens=500  # You can adjust max_tokens as needed\n        )",
         "detail": "generate_plagiarized",
         "documentation": {}
     },
@@ -1395,7 +1640,7 @@
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def make_plagiarism_decision(final_score, threshold=0.7):\n    \"\"\"Decides whether the code is plagiarized based on the final score.\"\"\"\n    return \"Plagiarized\" if final_score >= threshold else \"Original\"\ndef generate_report(results, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    report_data = {\n        \"AST Match\": results[\"AST Match\"],\n        \"CFG Match\": results[\"CFG Match\"],\n        \"Token Match\": results[\"Token Match\"],\n        \"Text Similarity Score\": results[\"Text Similarity Score\"],",
+        "peekOfCode": "def make_plagiarism_decision(final_score, threshold=0.7):\n    \"\"\"Decides whether the code is plagiarized based on the final score.\"\"\"\n    return \"Plagiarized\" if final_score >= threshold else \"Original\"\ndef generate_report(user_code, external_sources, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    # Assume external_sources is a list of code snippets or file paths for comparison\n    results = {}\n    for i, source_code in enumerate(external_sources):\n        # Compare user code with external source code\n        comparison_result = compare_codes(user_code, source_code)",
         "detail": "generate_report",
         "documentation": {}
     },
@@ -1404,7 +1649,7 @@
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def generate_report(results, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    report_data = {\n        \"AST Match\": results[\"AST Match\"],\n        \"CFG Match\": results[\"CFG Match\"],\n        \"Token Match\": results[\"Token Match\"],\n        \"Text Similarity Score\": results[\"Text Similarity Score\"],\n        \"Hash Match\": results[\"Hash Match\"],\n        \"Synthetic Similarity\": results[\"Synthetic Similarity\"],\n        \"Structural Similarity\": results[\"Structural Similarity\"],",
+        "peekOfCode": "def generate_report(user_code, external_sources, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    # Assume external_sources is a list of code snippets or file paths for comparison\n    results = {}\n    for i, source_code in enumerate(external_sources):\n        # Compare user code with external source code\n        comparison_result = compare_codes(user_code, source_code)\n        results[f\"Source {i+1}\"] = comparison_result\n    # Calculate final score for plagiarism decision\n    final_score = calculate_final_score(results)",
         "detail": "generate_report",
         "documentation": {}
     },
@@ -1418,56 +1663,20 @@
         "documentation": {}
     },
     {
-        "label": "fetch_code_from_gfg",
+        "label": "fetch_gfg_code",
         "kind": 2,
         "importPath": "gfg_fetch",
         "description": "gfg_fetch",
-        "peekOfCode": "def fetch_code_from_gfg(problem_url=\"https://www.geeksforgeeks.org/reverse-an-array/\"):\n    \"\"\"Fetch code from a GeeksforGeeks article.\"\"\"\n    response = requests.get(problem_url)\n    if response.status_code != 200:\n        return \"\"\n    soup = BeautifulSoup(response.text, 'html.parser')\n    code_blocks = soup.find_all(\"pre\")\n    # Concatenate all code blocks for comparison\n    extracted_code = \"\\n\".join(block.text.strip() for block in code_blocks)\n    return extracted_code",
+        "peekOfCode": "def fetch_gfg_code(username):\n    url = f\"https://auth.geeksforgeeks.org/user/{username}/practice/\"\n    res = requests.get(url)\n    if res.status_code != 200:\n        print(\"❌ GFG user not found!\")\n        return\n    soup = BeautifulSoup(res.text, 'html.parser')\n    titles = soup.find_all('span', class_='score_card_problem_name')\n    print(f\"✅ {len(titles)} problems fetched for {username}\")\n    for t in titles[:5]:",
         "detail": "gfg_fetch",
         "documentation": {}
     },
     {
-        "label": "url",
-        "kind": 5,
+        "label": "fetch_github_code",
+        "kind": 2,
         "importPath": "github_fetch",
         "description": "github_fetch",
-        "peekOfCode": "url = \"https://api.github.com/search/repositories?q=language:python&sort=stars\"\nheaders = {\n    \"Authorization\": \"token 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\"\n}\nresponse = requests.get(url, headers=headers)\n# Check HTTP response status\nif response.status_code != 200:\n    print(f\"❌ Error: Unable to fetch data. HTTP Status: {response.status_code}\")\n    print(f\"⚠️ Response: {response.json()}\")\n    exit()",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "headers",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "headers = {\n    \"Authorization\": \"token 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\"\n}\nresponse = requests.get(url, headers=headers)\n# Check HTTP response status\nif response.status_code != 200:\n    print(f\"❌ Error: Unable to fetch data. HTTP Status: {response.status_code}\")\n    print(f\"⚠️ Response: {response.json()}\")\n    exit()\n# Parse JSON response",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "response",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "response = requests.get(url, headers=headers)\n# Check HTTP response status\nif response.status_code != 200:\n    print(f\"❌ Error: Unable to fetch data. HTTP Status: {response.status_code}\")\n    print(f\"⚠️ Response: {response.json()}\")\n    exit()\n# Parse JSON response\ndata = response.json()\n# Check if 'items' is in the response\nif \"items\" not in data:",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "data",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "data = response.json()\n# Check if 'items' is in the response\nif \"items\" not in data:\n    print(\"⚠️ No 'items' key found in response. Check your GitHub API token or query.\")\n    print(f\"💡 Response: {json.dumps(data, indent=2)}\")\n    exit()\n# Extract repo URLs\nrepo_urls = [repo[\"html_url\"] for repo in data[\"items\"]]\n# Save to file\nwith open(\"github_repos.txt\", \"w\") as file:",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "repo_urls",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "repo_urls = [repo[\"html_url\"] for repo in data[\"items\"]]\n# Save to file\nwith open(\"github_repos.txt\", \"w\") as file:\n    for url in repo_urls:\n        file.write(url + \"\\n\")\nprint(f\"✅ Fetched {len(repo_urls)} repository URLs saved to 'github_repos.txt'\")",
+        "peekOfCode": "def fetch_github_code():\n    # List of languages you want to search for\n    languages = [\"python\", \"javascript\", \"java\", \"c++\", \"c\", \"go\", \"ruby\", \"php\", \"typescript\", \"rust\"]\n    # GitHub API base URL\n    base_url = \"https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=20\"\n    # Your GitHub Personal Access Token\n    headers = {\n        \"Authorization\": \"token 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\"\n    }\n    for lang in languages:",
         "detail": "github_fetch",
         "documentation": {}
     },
@@ -1481,21 +1690,30 @@
         "documentation": {}
     },
     {
-        "label": "result",
-        "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "result = compare_codes(code1, code2)\n# Print the similarity results\nprint(\"🔎 Code Comparison Results:\\n\", result)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
         "label": "normalize_code",
         "kind": 2,
         "importPath": "normalize",
         "description": "normalize",
         "peekOfCode": "def normalize_code(code):\n    \"\"\" Replaces variable names, numbers, and function names with placeholders. \"\"\"\n    code = re.sub(r'\\b[a-zA-Z_][a-zA-Z0-9_]*\\b', 'VAR', code)  # Replace all variable names\n    code = re.sub(r'\\b\\d+\\b', 'NUM', code)  # Replace numbers\n    return code",
         "detail": "normalize",
+        "documentation": {}
+    },
+    {
+        "label": "load_code",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def load_code(file_path):\n    \"\"\"Reads the code from a given file path.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef detect_plagiarism(user_code_path, reference_dir, test_cases=None):\n    user_code = load_code(user_code_path)\n    if user_code.startswith(\"Error loading file\"):",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "detect_plagiarism",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def detect_plagiarism(user_code_path, reference_dir, test_cases=None):\n    user_code = load_code(user_code_path)\n    if user_code.startswith(\"Error loading file\"):\n        return [{\"error\": user_code}]\n    ext = os.path.splitext(user_code_path)[1].lower()  # Normalize extension\n    if ext == '.py':\n        user_structure = ast_parser.get_ast_structure(user_code)\n    elif ext == '.cpp':\n        user_structure = cpp_parser.get_cpp_structure(user_code)\n    elif ext == '.java':",
+        "detail": "plagiarism_detector",
         "documentation": {}
     },
     {

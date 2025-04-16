@@ -1,16 +1,19 @@
 import requests
 from bs4 import BeautifulSoup
 
-def fetch_code_from_gfg(problem_url="https://www.geeksforgeeks.org/reverse-an-array/"):
-    """Fetch code from a GeeksforGeeks article."""
-    response = requests.get(problem_url)
-    if response.status_code != 200:
-        return ""
+def fetch_gfg_code(username):
+    url = f"https://auth.geeksforgeeks.org/user/{username}/practice/"
+    res = requests.get(url)
+    
+    if res.status_code != 200:
+        print("❌ GFG user not found!")
+        return
 
-    soup = BeautifulSoup(response.text, 'html.parser')
-    code_blocks = soup.find_all("pre")
+    soup = BeautifulSoup(res.text, 'html.parser')
+    titles = soup.find_all('span', class_='score_card_problem_name')
 
-    # Concatenate all code blocks for comparison
-    extracted_code = "\n".join(block.text.strip() for block in code_blocks)
+    print(f"✅ {len(titles)} problems fetched for {username}")
+    for t in titles[:5]:
+        print("📘", t.text.strip())
 
-    return extracted_code
+# fetch_gfg_code("mahak_123")

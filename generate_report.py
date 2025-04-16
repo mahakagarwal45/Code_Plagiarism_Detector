@@ -1,16 +1,7 @@
-# import json
-
-# def generate_report(result, output_file="report.json"):
-#     """Generates a JSON report of plagiarism results."""
-#     with open(output_file, "w") as f:
-#         json.dump(result, f, indent=4)
-#     print(f"✅ Report generated: {output_file}")
-
-
 import json
 import difflib
 import networkx as nx
-from ast_parser import get_ast_structure
+from language_parsers.ast_parser import get_ast_structure
 from tokenizer import tokenize_code
 from normalize import normalize_code
 from hash_similarity import hash_code
@@ -26,7 +17,10 @@ from visualizer import (
 )
 import sys
 import io
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+
 def calculate_final_score(results, weights=None):
     """Calculates the final similarity score by aggregating weighted scores."""
     if weights is None:
@@ -59,17 +53,23 @@ def make_plagiarism_decision(final_score, threshold=0.7):
     return "Plagiarized" if final_score >= threshold else "Original"
 
 
-def generate_report(results, final_score, decision, file_path="plagiarism_report.json"):
+def generate_report(user_code, external_sources, final_score, decision, file_path="plagiarism_report.json"):
     """Generates a plagiarism report and saves it to a file."""
+    
+    # Assume external_sources is a list of code snippets or file paths for comparison
+    results = {}
+    
+    for i, source_code in enumerate(external_sources):
+        # Compare user code with external source code
+        comparison_result = compare_codes(user_code, source_code)
+        results[f"Source {i+1}"] = comparison_result
+    
+    # Calculate final score for plagiarism decision
+    final_score = calculate_final_score(results)
+    decision = make_plagiarism_decision(final_score)
+    
     report_data = {
-        "AST Match": results["AST Match"],
-        "CFG Match": results["CFG Match"],
-        "Token Match": results["Token Match"],
-        "Text Similarity Score": results["Text Similarity Score"],
-        "Hash Match": results["Hash Match"],
-        "Synthetic Similarity": results["Synthetic Similarity"],
-        "Structural Similarity": results["Structural Similarity"],
-        "Behavioral Similarity": results["Behavioral Similarity"],
+        "Comparison Results": results,
         "Final Score": final_score,
         "Plagiarism Decision": decision,
     }
@@ -91,17 +91,34 @@ def generate_report(results, final_score, decision, file_path="plagiarism_report
         results["Synthetic Similarity"], results["Structural Similarity"], results["Behavioral Similarity"]
     )
 
+
 # Example Usage
 if __name__ == "__main__":
-    # Load code files for comparison
-    with open("code1.py", "r", encoding="utf-8") as f1, open("code2.py", "r", encoding="utf-8") as f2:
-        code1 = f1.read()
-        code2 = f2.read()
-
-    # Compare codes and generate report
-    results = compare_codes(code1, code2)
-    final_score = calculate_final_score(results)
-    decision = make_plagiarism_decision(final_score)
-    generate_report(results, final_score, decision)
+    # Example user input code
+    user_code = """
+    def greet(name):
+        print(f"Hello, {name}!")
     
-    # Generate synthetic and structural similarity visualizations
+    greet("Alice")
+    """
+    
+    # List of external sources for comparison (e.g., files or code from a repository)
+    external_sources = [
+        """
+        def greet(name):
+            print(f"Hi, {name}!")
+        
+        greet("Bob")
+        """,
+        """
+        def greet_person(name):
+            print(f"Hello, {name}!")
+        
+        greet_person("Alice")
+        """
+    ]
+    
+    # Generate report by comparing user code with external sources
+    final_score = 0.8  # Example final score (you would calculate this based on comparison results)
+    decision = make_plagiarism_decision(final_score)
+    generate_report(user_code, external_sources, final_score, decision)
