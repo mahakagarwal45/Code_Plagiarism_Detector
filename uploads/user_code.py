@@ -1,26 +1,32 @@
-/* C++ Program to find sum of elements
-in a given array using recursion */
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-// function to return sum of elements
-// in an array of size n
-int sum(int arr[], int n)
-{
-    // base case
-    if (n == 0) {
-        return 0;
+void solution(long long int A[],long long int B[],long long int m,long long int n){
+    long long int dp[n+1][m+1];
+    memset(dp,0,sizeof(dp));
+    for(int i=1;i<=n;i++){
+        for(int j=i;j<=m;j++){
+            dp[i][j]=(max(dp[i-1][j-1]+(A[j-1]*B[i-1]),dp[i][j-1]));
+        }
     }
-    else {
-        // recursively calling the function
-        return arr[0] + sum(arr + 1, n - 1);
-    }
+    cout<<dp[n][m]<<endl;
+    return;
 }
-int main()
-{
-    int arr[] = { 12, 3, 4, 15 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-    cout << sum(arr, n);
-    return 0;
-  
-}
+
+int main() {
+	int T;
+	cin>>T;
+	while(T--){
+	    int m,n;
+	    cin>>m>>n;
+	    long long int A[m],B[n];
+	    for(int i=0;i<m;i++){
+	        cin>>A[i];
+	    }
+	    for(int i=0;i<n;i++){
+	        cin>>B[i];
+	    }
+	    solution(A,B,m,n);
+	}
+	return 0;
+}

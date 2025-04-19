@@ -1,25 +1,23 @@
 from plagiarism_detector import detect_plagiarism
+from codesearchnet_fetch import fetch_reference_codes
 
 if __name__ == "__main__":
-    user_code = "uploads/user_code.py"
-    reference_codes_dir = "reference_codes/"
+    user_code_path = "uploads/user_code.py"
+    with open(user_code_path, 'r') as f:
+        user_code = f.read()
 
-    # Optional test cases for behavioral similarity
     test_cases = [
         {"input": [2], "expected_output": 4},
         {"input": [3], "expected_output": 9},
     ]
 
-    results = detect_plagiarism(user_code, reference_codes_dir, test_cases)
+    references = fetch_reference_codes(language="python", max_files=5)
 
-    for result in results:
-        print(f"\n📄 Compared with: {result['Reference File']}")
-        
-        # Print the entire result to inspect its structure
-        print("Result structure:", result)
+    for ref in references:
+        reference_code = ref["code"]
+        results = detect_plagiarism(user_code, reference_code, test_cases)
 
-        if 'Similarity Scores' in result:
-            for key, value in result["Similarity Scores"].items():
-                print(f"   {key}: {value}")
-        else:
-            print("No similarity scores found for this result.")
+        print(f"\n📄 Compared with: {ref['repo']} → {ref['path']}")
+        print("Similarity Scores:")
+        for key, value in results.items():
+            print(f"   {key}: {value}")

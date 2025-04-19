@@ -18,485 +18,6 @@
         "documentation": {}
     },
     {
-        "label": "unittest",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "unittest",
-        "description": "unittest",
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "unittest",
-        "description": "unittest",
-        "isExtraImport": true,
-        "detail": "unittest",
-        "documentation": {}
-    },
-    {
-        "label": "tree_sitter,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tree_sitter.",
-        "description": "tree_sitter.",
-        "detail": "tree_sitter.",
-        "documentation": {}
-    },
-    {
-        "label": "isdir",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "join",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "isdir",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "join",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "isdir",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "join",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "isdir",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "join",
-        "importPath": "os.path",
-        "description": "os.path",
-        "isExtraImport": true,
-        "detail": "os.path",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "platform",
-        "description": "platform",
-        "isExtraImport": true,
-        "detail": "platform",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "platform",
-        "description": "platform",
-        "isExtraImport": true,
-        "detail": "platform",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "platform",
-        "description": "platform",
-        "isExtraImport": true,
-        "detail": "platform",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "platform",
-        "description": "platform",
-        "isExtraImport": true,
-        "detail": "platform",
-        "documentation": {}
-    },
-    {
-        "label": "Extension",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "find_packages",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "setup",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "Extension",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "find_packages",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "setup",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "Extension",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "find_packages",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "setup",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "Extension",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "find_packages",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "setup",
-        "importPath": "setuptools",
-        "description": "setuptools",
-        "isExtraImport": true,
-        "detail": "setuptools",
-        "documentation": {}
-    },
-    {
-        "label": "build",
-        "importPath": "setuptools.command.build",
-        "description": "setuptools.command.build",
-        "isExtraImport": true,
-        "detail": "setuptools.command.build",
-        "documentation": {}
-    },
-    {
-        "label": "build",
-        "importPath": "setuptools.command.build",
-        "description": "setuptools.command.build",
-        "isExtraImport": true,
-        "detail": "setuptools.command.build",
-        "documentation": {}
-    },
-    {
-        "label": "build",
-        "importPath": "setuptools.command.build",
-        "description": "setuptools.command.build",
-        "isExtraImport": true,
-        "detail": "setuptools.command.build",
-        "documentation": {}
-    },
-    {
-        "label": "build",
-        "importPath": "setuptools.command.build",
-        "description": "setuptools.command.build",
-        "isExtraImport": true,
-        "detail": "setuptools.command.build",
-        "documentation": {}
-    },
-    {
-        "label": "bdist_wheel",
-        "importPath": "wheel.bdist_wheel",
-        "description": "wheel.bdist_wheel",
-        "isExtraImport": true,
-        "detail": "wheel.bdist_wheel",
-        "documentation": {}
-    },
-    {
-        "label": "bdist_wheel",
-        "importPath": "wheel.bdist_wheel",
-        "description": "wheel.bdist_wheel",
-        "isExtraImport": true,
-        "detail": "wheel.bdist_wheel",
-        "documentation": {}
-    },
-    {
-        "label": "bdist_wheel",
-        "importPath": "wheel.bdist_wheel",
-        "description": "wheel.bdist_wheel",
-        "isExtraImport": true,
-        "detail": "wheel.bdist_wheel",
-        "documentation": {}
-    },
-    {
-        "label": "bdist_wheel",
-        "importPath": "wheel.bdist_wheel",
-        "description": "wheel.bdist_wheel",
-        "isExtraImport": true,
-        "detail": "wheel.bdist_wheel",
-        "documentation": {}
-    },
-    {
-        "label": "run_unittest",
-        "importPath": "test.test_support",
-        "description": "test.test_support",
-        "isExtraImport": true,
-        "detail": "test.test_support",
-        "documentation": {}
-    },
-    {
-        "label": "check_syntax_error",
-        "importPath": "test.test_support",
-        "description": "test.test_support",
-        "isExtraImport": true,
-        "detail": "test.test_support",
-        "documentation": {}
-    },
-    {
-        "label": "run_unittest",
-        "importPath": "test.test_support",
-        "description": "test.test_support",
-        "isExtraImport": true,
-        "detail": "test.test_support",
-        "documentation": {}
-    },
-    {
-        "label": "check_syntax_error",
-        "importPath": "test.test_support",
-        "description": "test.test_support",
-        "isExtraImport": true,
-        "detail": "test.test_support",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "sys",
-        "description": "sys",
-        "isExtraImport": true,
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "sys",
-        "description": "sys",
-        "isExtraImport": true,
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "sys",
-        "description": "sys",
-        "isExtraImport": true,
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "sys",
-        "description": "sys",
-        "isExtraImport": true,
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "sys",
-        "description": "sys",
-        "isExtraImport": true,
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "run_unittest",
-        "importPath": "test.support",
-        "description": "test.support",
-        "isExtraImport": true,
-        "detail": "test.support",
-        "documentation": {}
-    },
-    {
-        "label": "check_syntax_error",
-        "importPath": "test.support",
-        "description": "test.support",
-        "isExtraImport": true,
-        "detail": "test.support",
-        "documentation": {}
-    },
-    {
-        "label": "run_unittest",
-        "importPath": "test.support",
-        "description": "test.support",
-        "isExtraImport": true,
-        "detail": "test.support",
-        "documentation": {}
-    },
-    {
-        "label": "check_syntax_error",
-        "importPath": "test.support",
-        "description": "test.support",
-        "isExtraImport": true,
-        "detail": "test.support",
-        "documentation": {}
-    },
-    {
-        "label": "check_syntax_error",
-        "importPath": "test.support",
-        "description": "test.support",
-        "isExtraImport": true,
-        "detail": "test.support",
-        "documentation": {}
-    },
-    {
-        "label": "inspect",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "inspect",
-        "description": "inspect",
-        "detail": "inspect",
-        "documentation": {}
-    },
-    {
-        "label": "test.ann_module",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "test.ann_module",
-        "description": "test.ann_module",
-        "detail": "test.ann_module",
-        "documentation": {}
-    },
-    {
-        "label": "typing",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "typing",
-        "description": "typing",
-        "detail": "typing",
-        "documentation": {}
-    },
-    {
-        "label": "ChainMap",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "test",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "test",
-        "description": "test",
-        "detail": "test",
-        "documentation": {}
-    },
-    {
-        "label": "ann_module2",
-        "importPath": "test",
-        "description": "test",
-        "isExtraImport": true,
-        "detail": "test",
-        "documentation": {}
-    },
-    {
         "label": "difflib",
         "kind": 6,
         "isExtraImport": true,
@@ -578,6 +99,14 @@
         "documentation": {}
     },
     {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "Api",
         "importPath": "flask_restful",
         "description": "flask_restful",
@@ -603,6 +132,22 @@
     },
     {
         "label": "detect_plagiarism",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compare_file_pair",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "load_code",
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
         "isExtraImport": true,
@@ -651,6 +196,14 @@
         "importPath": "requests",
         "description": "requests",
         "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
         "documentation": {}
     },
     {
@@ -751,6 +304,71 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "roc_curve",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "auc",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
         "label": "OpenAI",
         "importPath": "openai",
         "description": "openai",
@@ -777,6 +395,14 @@
     },
     {
         "label": "compare_codes",
+        "importPath": "compare",
+        "description": "compare",
+        "isExtraImport": true,
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "extract_similarity_features",
         "importPath": "compare",
         "description": "compare",
         "isExtraImport": true,
@@ -832,6 +458,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "io",
         "kind": 6,
         "isExtraImport": true,
@@ -865,12 +500,38 @@
         "documentation": {}
     },
     {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
         "label": "hashlib",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "hashlib",
         "description": "hashlib",
         "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "importPath": "codesearchnet_fetch",
+        "description": "codesearchnet_fetch",
+        "isExtraImport": true,
+        "detail": "codesearchnet_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
         "documentation": {}
     },
     {
@@ -907,12 +568,11 @@
         "documentation": {}
     },
     {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
         "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
+        "detail": "sklearn.ensemble",
         "documentation": {}
     },
     {
@@ -943,444 +603,21 @@
         "documentation": {}
     },
     {
-        "label": "TestLanguage",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-c.bindings.python.tests.test_binding",
-        "description": "tree-sitter-languages.tree-sitter-c.bindings.python.tests.test_binding",
-        "peekOfCode": "class TestLanguage(TestCase):\n    def test_can_load_grammar(self):\n        try:\n            tree_sitter.Language(tree_sitter_c.language())\n        except Exception:\n            self.fail(\"Error loading C grammar\")",
-        "detail": "tree-sitter-languages.tree-sitter-c.bindings.python.tests.test_binding",
-        "documentation": {}
-    },
-    {
-        "label": "Build",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-c.setup",
-        "description": "tree-sitter-languages.tree-sitter-c.setup",
-        "peekOfCode": "class Build(build):\n    def run(self):\n        if isdir(\"queries\"):\n            dest = join(self.build_lib, \"tree_sitter_c\", \"queries\")\n            self.copy_tree(\"queries\", dest)\n        super().run()\nclass BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):",
-        "detail": "tree-sitter-languages.tree-sitter-c.setup",
-        "documentation": {}
-    },
-    {
-        "label": "BdistWheel",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-c.setup",
-        "description": "tree-sitter-languages.tree-sitter-c.setup",
-        "peekOfCode": "class BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):\n            python, abi = \"cp39\", \"abi3\"\n        return python, abi, platform\nsetup(\n    packages=find_packages(\"bindings/python\"),\n    package_dir={\"\": \"bindings/python\"},\n    package_data={",
-        "detail": "tree-sitter-languages.tree-sitter-c.setup",
-        "documentation": {}
-    },
-    {
-        "label": "TestLanguage",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-cpp.bindings.python.tests.test_binding",
-        "description": "tree-sitter-languages.tree-sitter-cpp.bindings.python.tests.test_binding",
-        "peekOfCode": "class TestLanguage(TestCase):\n    def test_can_load_grammar(self):\n        try:\n            tree_sitter.Language(tree_sitter_cpp.language())\n        except Exception:\n            self.fail(\"Error loading C++ grammar\")",
-        "detail": "tree-sitter-languages.tree-sitter-cpp.bindings.python.tests.test_binding",
-        "documentation": {}
-    },
-    {
-        "label": "Build",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "description": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "peekOfCode": "class Build(build):\n    def run(self):\n        if isdir(\"queries\"):\n            dest = join(self.build_lib, \"tree_sitter_cpp\", \"queries\")\n            self.copy_tree(\"queries\", dest)\n        super().run()\nclass BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):",
-        "detail": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "documentation": {}
-    },
-    {
-        "label": "BdistWheel",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "description": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "peekOfCode": "class BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):\n            python, abi = \"cp39\", \"abi3\"\n        return python, abi, platform\nsetup(\n    packages=find_packages(\"bindings/python\"),\n    package_dir={\"\": \"bindings/python\"},\n    package_data={",
-        "detail": "tree-sitter-languages.tree-sitter-cpp.setup",
-        "documentation": {}
-    },
-    {
-        "label": "TestLanguage",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-java.bindings.python.tests.test_binding",
-        "description": "tree-sitter-languages.tree-sitter-java.bindings.python.tests.test_binding",
-        "peekOfCode": "class TestLanguage(TestCase):\n    def test_can_load_grammar(self):\n        try:\n            tree_sitter.Language(tree_sitter_java.language())\n        except Exception:\n            self.fail(\"Error loading Java grammar\")",
-        "detail": "tree-sitter-languages.tree-sitter-java.bindings.python.tests.test_binding",
-        "documentation": {}
-    },
-    {
-        "label": "Build",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-java.setup",
-        "description": "tree-sitter-languages.tree-sitter-java.setup",
-        "peekOfCode": "class Build(build):\n    def run(self):\n        if isdir(\"queries\"):\n            dest = join(self.build_lib, \"tree_sitter_java\", \"queries\")\n            self.copy_tree(\"queries\", dest)\n        super().run()\nclass BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):",
-        "detail": "tree-sitter-languages.tree-sitter-java.setup",
-        "documentation": {}
-    },
-    {
-        "label": "BdistWheel",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-java.setup",
-        "description": "tree-sitter-languages.tree-sitter-java.setup",
-        "peekOfCode": "class BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):\n            python, abi = \"cp39\", \"abi3\"\n        return python, abi, platform\nsetup(\n    packages=find_packages(\"bindings/python\"),\n    package_dir={\"\": \"bindings/python\"},\n    package_data={",
-        "detail": "tree-sitter-languages.tree-sitter-java.setup",
-        "documentation": {}
-    },
-    {
-        "label": "TestLanguage",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.bindings.python.tests.test_binding",
-        "description": "tree-sitter-languages.tree-sitter-python.bindings.python.tests.test_binding",
-        "peekOfCode": "class TestLanguage(TestCase):\n    def test_can_load_grammar(self):\n        try:\n            tree_sitter.Language(tree_sitter_python.language())\n        except Exception:\n            self.fail(\"Error loading Python grammar\")",
-        "detail": "tree-sitter-languages.tree-sitter-python.bindings.python.tests.test_binding",
-        "documentation": {}
-    },
-    {
-        "label": "Foo",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.compound-statement-without-trailing-newline",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.compound-statement-without-trailing-newline",
-        "peekOfCode": "class Foo:\n  def bar():\n    print \"hi\"",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.compound-statement-without-trailing-newline",
+        "label": "sort_blocks",
+        "kind": 2,
+        "importPath": "reference_codes.python.vinta_awesome-python_sort",
+        "description": "reference_codes.python.vinta_awesome-python_sort",
+        "peekOfCode": "def sort_blocks():\n    # First, we load the current README into memory\n    with open('README.md', 'r') as read_me_file:\n        read_me = read_me_file.read()\n    # Separating the 'table of contents' from the contents (blocks)\n    table_of_contents = ''.join(read_me.split('- - -')[0])\n    blocks = ''.join(read_me.split('- - -')[1]).split('\\n# ')\n    for i in range(len(blocks)):\n        if i == 0:\n            blocks[i] = blocks[i] + '\\n'",
+        "detail": "reference_codes.python.vinta_awesome-python_sort",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.mixed-spaces-tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.mixed-spaces-tabs",
-        "peekOfCode": "def main():\n\tprint \"hello\"\n\t# 1 tab = 8 spaces in Python 2\n        return",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.mixed-spaces-tabs",
-        "documentation": {}
-    },
-    {
-        "label": "hi",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "peekOfCode": "def hi():\n    print \"hi\"\ndef bye():\n    print \"bye\"",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "documentation": {}
-    },
-    {
-        "label": "bye",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "peekOfCode": "def bye():\n    print \"bye\"",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.multiple-newlines",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "peekOfCode": "class TokenTests(unittest.TestCase):\n    def testBackslash(self):\n        # Backslash means line continuation:\n        x = 1 \\\n        + 1\n        self.assertEquals(x, 2, 'backslash for line continuation')\n        # Backslash does not means continuation in comments :\\\n        x = 0\n        self.assertEquals(x, 0, 'backslash ending comment')\n    def testPlainIntegers(self):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "GrammarTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "peekOfCode": "class GrammarTests(unittest.TestCase):\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE\n    # XXX can't test in a script -- this rule is only used when interactive\n    # file_input: (NEWLINE | stmt)* ENDMARKER\n    # Being tested as this very moment this very module\n    # expr_input: testlist NEWLINE\n    # XXX Hard to test -- used only in calls to input()\n    def testEvalInput(self):\n        # testlist ENDMARKER\n        x = eval('1, 0 or 1')",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "test_main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "peekOfCode": "def test_main():\n    run_unittest(TokenTests, GrammarTests)\nif __name__ == '__main__':\n    test_main()",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "peekOfCode": "class TokenTests(unittest.TestCase):\n    def testBackslash(self):\n        # Backslash means line continuation:\n        x = 1 \\\n        + 1\n        self.assertEquals(x, 2, 'backslash for line continuation')\n        # Backslash does not means continuation in comments :\\\n        x = 0\n        self.assertEquals(x, 0, 'backslash ending comment')\n    def testPlainIntegers(self):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "GrammarTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "peekOfCode": "class GrammarTests(unittest.TestCase):\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE\n    # XXX can't test in a script -- this rule is only used when interactive\n    # file_input: (NEWLINE | stmt)* ENDMARKER\n    # Being tested as this very moment this very module\n    # expr_input: testlist NEWLINE\n    # XXX Hard to test -- used only in calls to input()\n    def testEvalInput(self):\n        # testlist ENDMARKER\n        x = eval('1, 0 or 1')",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "test_main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "peekOfCode": "def test_main():\n    run_unittest(TokenTests, GrammarTests)\nif __name__ == '__main__':\n    test_main()",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python2-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "peekOfCode": "class TokenTests(unittest.TestCase):\n    def testBackslash(self):\n        # Backslash means line continuation:\n        x = 1 \\\n        + 1\n        self.assertEquals(x, 2, 'backslash for line continuation')\n        # Backslash does not means continuation in comments :\\\n        x = 0\n        self.assertEquals(x, 0, 'backslash ending comment')\n    def testPlainIntegers(self):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "GrammarTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "peekOfCode": "class GrammarTests(unittest.TestCase):\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE\n    # XXX can't test in a script -- this rule is only used when interactive\n    # file_input: (NEWLINE | stmt)* ENDMARKER\n    # Being tested as this very moment this very module\n    # expr_input: testlist NEWLINE\n    # XXX Hard to test -- used only in calls to input()\n    def testEvalInput(self):\n        # testlist ENDMARKER\n        x = eval('1, 0 or 1')",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "test_main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "peekOfCode": "def test_main():\n    run_unittest(TokenTests, GrammarTests)\nif __name__ == '__main__':\n    test_main()",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar-crlf",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "peekOfCode": "class TokenTests(unittest.TestCase):\n    def testBackslash(self):\n        # Backslash means line continuation:\n        x = 1 \\\n        + 1\n        self.assertEquals(x, 2, 'backslash for line continuation')\n        # Backslash does not means continuation in comments :\\\n        x = 0\n        self.assertEquals(x, 0, 'backslash ending comment')\n    def testPlainIntegers(self):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "GrammarTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "peekOfCode": "class GrammarTests(unittest.TestCase):\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE\n    # XXX can't test in a script -- this rule is only used when interactive\n    # file_input: (NEWLINE | stmt)* ENDMARKER\n    # Being tested as this very moment this very module\n    # expr_input: testlist NEWLINE\n    # XXX Hard to test -- used only in calls to input()\n    def testEvalInput(self):\n        # testlist ENDMARKER\n        x = eval('1, 0 or 1')",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "test_main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "peekOfCode": "def test_main():\n    run_unittest(TokenTests, GrammarTests)\nif __name__ == '__main__':\n    test_main()",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3-grammar",
-        "documentation": {}
-    },
-    {
-        "label": "TokenTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "peekOfCode": "class TokenTests(unittest.TestCase):\n    def test_backslash(self):\n        # Backslash means line continuation:\n        x = 1 \\\n        + 1\n        self.assertEqual(x, 2, 'backslash for line continuation')\n        # Backslash does not means continuation in comments :\\\n        x = 0\n        self.assertEqual(x, 0, 'backslash ending comment')\n    def test_plain_integers(self):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "documentation": {}
-    },
-    {
-        "label": "CNS",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "peekOfCode": "class CNS:\n    def __init__(self):\n        self._dct = {}\n    def __setitem__(self, item, value):\n        self._dct[item.lower()] = value\n    def __getitem__(self, item):\n        return self._dct[item]\nclass GrammarTests(unittest.TestCase):\n    check_syntax_error = check_syntax_error\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "documentation": {}
-    },
-    {
-        "label": "GrammarTests",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "peekOfCode": "class GrammarTests(unittest.TestCase):\n    check_syntax_error = check_syntax_error\n    # single_input: NEWLINE | simple_stmt | compound_stmt NEWLINE\n    # XXX can't test in a script -- this rule is only used when interactive\n    # file_input: (NEWLINE | stmt)* ENDMARKER\n    # Being tested as this very moment this very module\n    # expr_input: testlist NEWLINE\n    # XXX Hard to test -- used only in calls to input()\n    def test_eval_input(self):\n        # testlist ENDMARKER",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "documentation": {}
-    },
-    {
-        "label": "VALID_UNDERSCORE_LITERALS",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "peekOfCode": "VALID_UNDERSCORE_LITERALS = [\n    '0_0_0',\n    '4_2',\n    '1_0000_0000',\n    '0b1001_0100',\n    '0xffff_ffff',\n    '0o5_7_7',\n    '1_00_00.5',\n    '1_00_00.5e5',\n    '1_00_00e5_1',",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "documentation": {}
-    },
-    {
-        "label": "INVALID_UNDERSCORE_LITERALS",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "peekOfCode": "INVALID_UNDERSCORE_LITERALS = [\n    # Trailing underscores:\n    '0_',\n    '42_',\n    '1.4j_',\n    '0x_',\n    '0b1_',\n    '0xf_',\n    '0o5_',\n    '0 if 1_Else 1',",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.python3.8_grammar",
-        "documentation": {}
-    },
-    {
-        "label": "set_password",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "def set_password(args):\n\tpassword = args.password\n\twhile not password  :\n\t\tpassword1 = getpass(\"\" if args.quiet else \"Provide password: \")\n\t\tpassword_repeat = getpass(\"\" if args.quiet else \"Repeat password:  \")\n\t\tif password1 != password_repeat:\n\t\t\tprint(\"Passwords do not match, try again\")\n\t\telif len(password1) < 4:\n\t\t\tprint(\"Please provide at least 4 characters\")\n\t\telse:",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "def main(argv):\n\tparser = argparse.ArgumentParser(argv[0])\n\tsubparsers = parser.add_subparsers()\n\tparser_password = subparsers.add_parser('password', help='sets a password for your notebook server')\n\tparser_password.add_argument(\"password\", help=\"password to set, if not given, a password will be queried for (NOTE: this may not be safe)\",\n\t\t\tnargs=\"?\")\n\tparser_password.add_argument(\"--quiet\", help=\"suppress messages\", action=\"store_true\")\n\tparser_password.set_defaults(function=set_password)\n\targs = parser.parse_args(argv[1:])\n\targs.function(args)",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tpassword",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tpassword = args.password\n\twhile not password  :\n\t\tpassword1 = getpass(\"\" if args.quiet else \"Provide password: \")\n\t\tpassword_repeat = getpass(\"\" if args.quiet else \"Repeat password:  \")\n\t\tif password1 != password_repeat:\n\t\t\tprint(\"Passwords do not match, try again\")\n\t\telif len(password1) < 4:\n\t\t\tprint(\"Please provide at least 4 characters\")\n\t\telse:\n\t\t\tpassword = password1",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\t\tpassword1",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\t\tpassword1 = getpass(\"\" if args.quiet else \"Provide password: \")\n\t\tpassword_repeat = getpass(\"\" if args.quiet else \"Repeat password:  \")\n\t\tif password1 != password_repeat:\n\t\t\tprint(\"Passwords do not match, try again\")\n\t\telif len(password1) < 4:\n\t\t\tprint(\"Please provide at least 4 characters\")\n\t\telse:\n\t\t\tpassword = password1\n\tpassword_hash = passwd(password)\n\tcfg = BaseJSONConfigManager(config_dir=jupyter_config_dir())",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\t\tpassword_repeat",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\t\tpassword_repeat = getpass(\"\" if args.quiet else \"Repeat password:  \")\n\t\tif password1 != password_repeat:\n\t\t\tprint(\"Passwords do not match, try again\")\n\t\telif len(password1) < 4:\n\t\t\tprint(\"Please provide at least 4 characters\")\n\t\telse:\n\t\t\tpassword = password1\n\tpassword_hash = passwd(password)\n\tcfg = BaseJSONConfigManager(config_dir=jupyter_config_dir())\n\tcfg.update('jupyter_notebook_config', {",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\t\t\tpassword",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\t\t\tpassword = password1\n\tpassword_hash = passwd(password)\n\tcfg = BaseJSONConfigManager(config_dir=jupyter_config_dir())\n\tcfg.update('jupyter_notebook_config', {\n\t\t'NotebookApp': {\n\t\t\t'password': password_hash,\n\t\t}\n\t})\n\tif not args.quiet:\n\t\tprint(\"password stored in config dir: %s\" % jupyter_config_dir())",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tpassword_hash",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tpassword_hash = passwd(password)\n\tcfg = BaseJSONConfigManager(config_dir=jupyter_config_dir())\n\tcfg.update('jupyter_notebook_config', {\n\t\t'NotebookApp': {\n\t\t\t'password': password_hash,\n\t\t}\n\t})\n\tif not args.quiet:\n\t\tprint(\"password stored in config dir: %s\" % jupyter_config_dir())\ndef main(argv):",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tcfg",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tcfg = BaseJSONConfigManager(config_dir=jupyter_config_dir())\n\tcfg.update('jupyter_notebook_config', {\n\t\t'NotebookApp': {\n\t\t\t'password': password_hash,\n\t\t}\n\t})\n\tif not args.quiet:\n\t\tprint(\"password stored in config dir: %s\" % jupyter_config_dir())\ndef main(argv):\n\tparser = argparse.ArgumentParser(argv[0])",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tparser",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tparser = argparse.ArgumentParser(argv[0])\n\tsubparsers = parser.add_subparsers()\n\tparser_password = subparsers.add_parser('password', help='sets a password for your notebook server')\n\tparser_password.add_argument(\"password\", help=\"password to set, if not given, a password will be queried for (NOTE: this may not be safe)\",\n\t\t\tnargs=\"?\")\n\tparser_password.add_argument(\"--quiet\", help=\"suppress messages\", action=\"store_true\")\n\tparser_password.set_defaults(function=set_password)\n\targs = parser.parse_args(argv[1:])\n\targs.function(args)",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tsubparsers",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tsubparsers = parser.add_subparsers()\n\tparser_password = subparsers.add_parser('password', help='sets a password for your notebook server')\n\tparser_password.add_argument(\"password\", help=\"password to set, if not given, a password will be queried for (NOTE: this may not be safe)\",\n\t\t\tnargs=\"?\")\n\tparser_password.add_argument(\"--quiet\", help=\"suppress messages\", action=\"store_true\")\n\tparser_password.set_defaults(function=set_password)\n\targs = parser.parse_args(argv[1:])\n\targs.function(args)",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\tparser_password",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\tparser_password = subparsers.add_parser('password', help='sets a password for your notebook server')\n\tparser_password.add_argument(\"password\", help=\"password to set, if not given, a password will be queried for (NOTE: this may not be safe)\",\n\t\t\tnargs=\"?\")\n\tparser_password.add_argument(\"--quiet\", help=\"suppress messages\", action=\"store_true\")\n\tparser_password.set_defaults(function=set_password)\n\targs = parser.parse_args(argv[1:])\n\targs.function(args)",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "\targs",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "description": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "peekOfCode": "\targs = parser.parse_args(argv[1:])\n\targs.function(args)",
-        "detail": "tree-sitter-languages.tree-sitter-python.examples.tabs",
-        "documentation": {}
-    },
-    {
-        "label": "g",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.test.highlight.parameters",
-        "description": "tree-sitter-languages.tree-sitter-python.test.highlight.parameters",
-        "peekOfCode": "def g(h, i, /, j, *, k=100, **kwarg):\n    #       ^ operator\n    #             ^ operator\n    pass",
-        "detail": "tree-sitter-languages.tree-sitter-python.test.highlight.parameters",
-        "documentation": {}
-    },
-    {
-        "label": "match",
-        "kind": 5,
-        "importPath": "tree-sitter-languages.tree-sitter-python.test.highlight.pattern_matching",
-        "description": "tree-sitter-languages.tree-sitter-python.test.highlight.pattern_matching",
-        "peekOfCode": "match = 2\n#   ^ variable\nmatch, a = 2, 3\n#   ^ variable\nmatch: int = secret\n#   ^ variable\nx, match: str = 2, \"hey, what's up?\"\n# <- variable\n#   ^ variable\nif match := re.fullmatch(r\"(-)?(\\d+:)?\\d?\\d:\\d\\d(\\.\\d*)?\", time, flags=re.ASCII):",
-        "detail": "tree-sitter-languages.tree-sitter-python.test.highlight.pattern_matching",
-        "documentation": {}
-    },
-    {
-        "label": "MyClass",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "description": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "peekOfCode": "class MyClass:\n  #    ^ definition.class\n  def hello():\n    #  ^ definition.function\n    print \"hello from MyClass\"\nMyClass.hello()\n#        ^ reference.call\ndef main():\n  #  ^ definition.function\n  print \"Hello, world!\"",
-        "detail": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "description": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "peekOfCode": "def main():\n  #  ^ definition.function\n  print \"Hello, world!\"\nmain()\n# <- reference.call",
-        "detail": "tree-sitter-languages.tree-sitter-python.test.tags.main",
-        "documentation": {}
-    },
-    {
-        "label": "Build",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.setup",
-        "description": "tree-sitter-languages.tree-sitter-python.setup",
-        "peekOfCode": "class Build(build):\n    def run(self):\n        if isdir(\"queries\"):\n            dest = join(self.build_lib, \"tree_sitter_python\", \"queries\")\n            self.copy_tree(\"queries\", dest)\n        super().run()\nclass BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):",
-        "detail": "tree-sitter-languages.tree-sitter-python.setup",
-        "documentation": {}
-    },
-    {
-        "label": "BdistWheel",
-        "kind": 6,
-        "importPath": "tree-sitter-languages.tree-sitter-python.setup",
-        "description": "tree-sitter-languages.tree-sitter-python.setup",
-        "peekOfCode": "class BdistWheel(bdist_wheel):\n    def get_tag(self):\n        python, abi, platform = super().get_tag()\n        if python.startswith(\"cp\"):\n            python, abi = \"cp39\", \"abi3\"\n        return python, abi, platform\nsetup(\n    packages=find_packages(\"bindings/python\"),\n    package_dir={\"\": \"bindings/python\"},\n    package_data={",
-        "detail": "tree-sitter-languages.tree-sitter-python.setup",
+        "importPath": "reference_codes.python.vinta_awesome-python_sort",
+        "description": "reference_codes.python.vinta_awesome-python_sort",
+        "peekOfCode": "def main():\n    # First, we load the current README into memory as an array of lines\n    with open('README.md', 'r') as read_me_file:\n        read_me = read_me_file.readlines()\n    # Then we cluster the lines together as blocks\n    # Each block represents a collection of lines that should be sorted\n    # This was done by assuming only links ([...](...)) are meant to be sorted\n    # Clustering is done by indentation\n    blocks = []\n    last_indent = None",
+        "detail": "reference_codes.python.vinta_awesome-python_sort",
         "documentation": {}
     },
     {
@@ -1424,7 +661,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:\n            user_code = request.form.get(\"user_code\")\n            file = request.files.get(\"code_file\")\n            user_code_path = \"\"",
+        "peekOfCode": "def home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:",
         "detail": "app",
         "documentation": {}
     },
@@ -1451,7 +688,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "UPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"",
+        "peekOfCode": "UPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0",
         "detail": "app",
         "documentation": {}
     },
@@ -1460,7 +697,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "REPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":",
+        "peekOfCode": "REPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}",
         "detail": "app",
         "documentation": {}
     },
@@ -1469,7 +706,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []",
         "detail": "app",
         "documentation": {}
     },
@@ -1525,6 +762,15 @@
         "description": "codeforces_fetch",
         "peekOfCode": "def fetch_cf_info(username):\n    url = f\"https://codeforces.com/api/user.info?handles={username}\"\n    res = requests.get(url).json()\n    if res[\"status\"] != \"OK\":\n        print(\"❌ Codeforces user not found!\")\n        return\n    user = res[\"result\"][0]\n    print(f\"🎖️ Handle: {user['handle']}\")\n    print(f\"🏅 Rating: {user.get('rating', 'Unrated')}\")\n    print(f\"📈 Max Rating: {user.get('maxRating', 'N/A')}\")",
         "detail": "codeforces_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "kind": 2,
+        "importPath": "codesearchnet_fetch",
+        "description": "codesearchnet_fetch",
+        "peekOfCode": "def fetch_reference_codes(language: str, max_files: int = 10):\n    \"\"\"\n    Fetches top `max_files` code snippets for `language` from CodeSearchNet\n    and writes them to reference_codes/{language}_{i}.<ext>\n    \"\"\"\n    ds = load_dataset(\n        \"code_search_net\", \n        language, \n        split=\"train\", \n        trust_remote_code=True",
+        "detail": "codesearchnet_fetch",
         "documentation": {}
     },
     {
@@ -1600,12 +846,30 @@
         "documentation": {}
     },
     {
+        "label": "extract_similarity_features",
+        "kind": 2,
+        "importPath": "compare",
+        "description": "compare",
+        "peekOfCode": "def extract_similarity_features(results_dict):\n    \"\"\"Extract [synthetic, structural, behavioral] features for ML prediction.\"\"\"\n    return [\n        results_dict[\"Synthetic Similarity\"],\n        results_dict[\"Structural Similarity\"],\n        results_dict[\"Behavioral Similarity\"]\n    ]\ndef compare_codes(code1, code2, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)",
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
         "label": "compare_codes",
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
         "peekOfCode": "def compare_codes(code1, code2, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)\n    synthetic_similarity, tokens1, tokens2, hash1, hash2 = calculate_synthetic_similarity(code1, code2)\n    structural_similarity, ast_match, cfg_match = calculate_structural_similarity(code1, code2)\n    if test_cases:\n        behavioral_similarity = calculate_behavioral_similarity(code1, code2, test_cases)\n    else:\n        behavioral_similarity = 0.0\n    text_similarity = SequenceMatcher(None, code1, code2).ratio()",
         "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_plagiarism_detection",
+        "kind": 2,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "def evaluate_plagiarism_detection(y_true, y_pred):\n    cm = confusion_matrix(y_true, y_pred)\n    print(\"Confusion Matrix:\\n\", cm)\n    print(f\"Accuracy:  {accuracy_score(y_true, y_pred):.4f}\")\n    print(f\"Precision: {precision_score(y_true, y_pred):.4f}\")\n    print(f\"Recall:    {recall_score(y_true, y_pred):.4f}\")\n    print(f\"F1 Score:  {f1_score(y_true, y_pred):.4f}\")\n    fpr, tpr, _ = roc_curve(y_true, y_pred)\n    roc_auc = auc(fpr, tpr)\n    plt.figure()",
+        "detail": "evaluate",
         "documentation": {}
     },
     {
@@ -1672,11 +936,47 @@
         "documentation": {}
     },
     {
+        "label": "download_code_files",
+        "kind": 2,
+        "importPath": "github_fetch",
+        "description": "github_fetch",
+        "peekOfCode": "def download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)\n    stack = [\"\"]\n    fetched = 0\n    while stack and fetched < max_files:\n        path = stack.pop()\n        url = f\"https://api.github.com/repos/{repo_full}/contents/{path}\"\n        r = requests.get(url, headers=HEADERS)",
+        "detail": "github_fetch",
+        "documentation": {}
+    },
+    {
         "label": "fetch_github_code",
         "kind": 2,
         "importPath": "github_fetch",
         "description": "github_fetch",
-        "peekOfCode": "def fetch_github_code():\n    # List of languages you want to search for\n    languages = [\"python\", \"javascript\", \"java\", \"c++\", \"c\", \"go\", \"ruby\", \"php\", \"typescript\", \"rust\"]\n    # GitHub API base URL\n    base_url = \"https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=20\"\n    # Your GitHub Personal Access Token\n    headers = {\n        \"Authorization\": \"token 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\"\n    }\n    for lang in languages:",
+        "peekOfCode": "def fetch_github_code(per_lang_repos=5, per_repo_files=3):\n    \"\"\"Search top repos by stars, then grab a few files from each.\"\"\"\n    for lang, ext in LANGUAGES.items():\n        print(f\"\\n🔍 Fetching top {per_lang_repos} {lang!r} repos…\")\n        params = {\n            \"q\":      f\"language:{lang}\",\n            \"sort\":   \"stars\",\n            \"order\":  \"desc\",\n            \"per_page\": per_lang_repos\n        }",
+        "detail": "github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "github_fetch",
+        "description": "github_fetch",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"token {GITHUB_TOKEN}\",\n    \"Accept\": \"application/vnd.github.v3+json\"\n}\nSEARCH_URL = \"https://api.github.com/search/repositories\"\nLANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}",
+        "detail": "github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "SEARCH_URL",
+        "kind": 5,
+        "importPath": "github_fetch",
+        "description": "github_fetch",
+        "peekOfCode": "SEARCH_URL = \"https://api.github.com/search/repositories\"\nLANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}\ndef download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)",
+        "detail": "github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGES",
+        "kind": 5,
+        "importPath": "github_fetch",
+        "description": "github_fetch",
+        "peekOfCode": "LANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}\ndef download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)\n    stack = [\"\"]",
         "detail": "github_fetch",
         "documentation": {}
     },
@@ -1703,7 +1003,16 @@
         "kind": 2,
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
-        "peekOfCode": "def load_code(file_path):\n    \"\"\"Reads the code from a given file path.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef detect_plagiarism(user_code_path, reference_dir, test_cases=None):\n    user_code = load_code(user_code_path)\n    if user_code.startswith(\"Error loading file\"):",
+        "peekOfCode": "def load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"\n    # Parse code structures based on file extension",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compare_file_pair",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"\n    # Parse code structures based on file extension\n    if ext == '.py':\n        user_structure = ast_parser.get_ast_structure(user_code)\n        ref_structure = ast_parser.get_ast_structure(reference_code)\n    elif ext == '.cpp':\n        user_structure = cpp_parser.get_cpp_structure(user_code)\n        ref_structure = cpp_parser.get_cpp_structure(reference_code)\n    elif ext == '.java':",
         "detail": "plagiarism_detector",
         "documentation": {}
     },
@@ -1712,7 +1021,16 @@
         "kind": 2,
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
-        "peekOfCode": "def detect_plagiarism(user_code_path, reference_dir, test_cases=None):\n    user_code = load_code(user_code_path)\n    if user_code.startswith(\"Error loading file\"):\n        return [{\"error\": user_code}]\n    ext = os.path.splitext(user_code_path)[1].lower()  # Normalize extension\n    if ext == '.py':\n        user_structure = ast_parser.get_ast_structure(user_code)\n    elif ext == '.cpp':\n        user_structure = cpp_parser.get_cpp_structure(user_code)\n    elif ext == '.java':",
+        "peekOfCode": "def detect_plagiarism(user_code_path, reference_dir, test_cases=None):\n    \"\"\"Detect plagiarism for a given user code file against all reference files in a directory.\"\"\"\n    user_code = load_code(user_code_path)\n    if user_code.startswith(\"Error loading file\"):\n        return [{\"error\": user_code}], {\"precision\": 0, \"recall\": 0, \"f1\": 0, \"predictions\": []}\n    ext = os.path.splitext(user_code_path)[1].lower()  # Get file extension (e.g., .py, .cpp, .java)\n    results_summary = []\n    predictions = []\n    total = 0\n    plagiarized = 0",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "model = joblib.load(\"rf_model.pkl\")  # Path to your trained Random Forest model\ndef load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"",
         "detail": "plagiarism_detector",
         "documentation": {}
     },
@@ -1759,6 +1077,33 @@
         "description": "tokenizer",
         "peekOfCode": "def tokenize_code(code):\n    \"\"\" Tokenizes the given code and removes variable names. \"\"\"\n    try:\n        tokens = []\n        for tok in tokenize.tokenize(BytesIO(code.encode('utf-8')).readline):\n            if tok.type == tokenize.NAME:  \n                tokens.append(\"VAR\")  # Replace all variable names with VAR\n            elif tok.type == tokenize.NUMBER:\n                tokens.append(\"NUM\")  # Replace all numbers with NUM\n            elif tok.type == tokenize.STRING:",
         "detail": "tokenizer",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "X = [\n    [0.9, 0.92, 0.88],  # plagiarized\n    [0.2, 0.3, 0.25],   # not plagiarized\n    [0.85, 0.89, 0.84], # plagiarized\n    [0.1, 0.2, 0.15]    # not plagiarized\n]\n# Labels (1 = plagiarized, 0 = not plagiarized)\ny = [1, 0, 1, 0]\n# Train the model\nclf = RandomForestClassifier(n_estimators=100, random_state=42)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y = [1, 0, 1, 0]\n# Train the model\nclf = RandomForestClassifier(n_estimators=100, random_state=42)\nclf.fit(X, y)\n# Save model to disk\njoblib.dump(clf, \"rf_model.pkl\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "clf",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "clf = RandomForestClassifier(n_estimators=100, random_state=42)\nclf.fit(X, y)\n# Save model to disk\njoblib.dump(clf, \"rf_model.pkl\")",
+        "detail": "train_model",
         "documentation": {}
     },
     {

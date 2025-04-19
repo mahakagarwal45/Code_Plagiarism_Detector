@@ -1,45 +1,71 @@
-import requests
-import json
-import time
+import requests, os, time, sys
+try:
+    GITHUB_TOKEN = os.environ["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"]
+except KeyError:
+    sys.exit("❌ Please run: set GITHUB_TOKEN=<your‑token>")
 
-def fetch_github_code():
-    # List of languages you want to search for
-    languages = ["python", "javascript", "java", "c++", "c", "go", "ruby", "php", "typescript", "rust"]
+HEADERS = {
+    "Authorization": f"token {GITHUB_TOKEN}",
+    "Accept": "application/vnd.github.v3+json"
+}
+SEARCH_URL = "https://api.github.com/search/repositories"
+LANGUAGES = {
+    "python": ".py",
+    "java":   ".java",
+    "c++":    ".cpp",
+}
 
-    # GitHub API base URL
-    base_url = "https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=20"
+def download_code_files(repo_full, lang, ext, max_files=5):
+    """Recursively download up to `max_files` code files of extension `ext`."""
+    save_dir = os.path.join("reference_codes", lang)
+    os.makedirs(save_dir, exist_ok=True)
+    stack = [""]
+    fetched = 0
 
-    # Your GitHub Personal Access Token
-    headers = {
-        "Authorization": "token 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"
-    }
+    while stack and fetched < max_files:
+        path = stack.pop()
+        url = f"https://api.github.com/repos/{repo_full}/contents/{path}"
+        r = requests.get(url, headers=HEADERS)
+        if r.status_code != 200:
+            break
+        for item in r.json():
+            if fetched >= max_files:
+                break
+            if item["type"] == "dir":
+                stack.append(item["path"])
+            elif item["type"] == "file" and item["name"].endswith(ext):
+                try:
+                    raw = requests.get(item["download_url"], headers=HEADERS, timeout=10).text
+                    fn = f"{repo_full.replace('/', '_')}_{item['name']}"
+                    with open(os.path.join(save_dir, fn), "w", encoding="utf-8") as f:
+                        f.write(raw)
+                    fetched += 1
+                    print(f"  ✅ Saved: {lang}/{fn}")
+                except Exception as e:
+                    print(f"  ❌ Error saving {item['name']}: {e}")
+        time.sleep(0.3)
 
-    for lang in languages:
-        print(f"🔍 Fetching top repositories for: {lang}")
-        url = base_url.format(lang)
-        
-        response = requests.get(url, headers=headers)
-        
-        if response.status_code != 200:
-            print(f"❌ Error fetching for {lang}. HTTP {response.status_code}")
-            print(f"⚠️ Response: {response.text}")
+
+def fetch_github_code(per_lang_repos=5, per_repo_files=3):
+    """Search top repos by stars, then grab a few files from each."""
+    for lang, ext in LANGUAGES.items():
+        print(f"\n🔍 Fetching top {per_lang_repos} {lang!r} repos…")
+        params = {
+            "q":      f"language:{lang}",
+            "sort":   "stars",
+            "order":  "desc",
+            "per_page": per_lang_repos
+        }
+        r = requests.get(SEARCH_URL, headers=HEADERS, params=params)
+        if r.status_code != 200:
+            print(f"❌ GitHub search failed for {lang}: {r.status_code}")
             continue
-        
-        data = response.json()
-        
-        if "items" not in data:
-            print(f"⚠️ No 'items' found for {lang}. Skipping.")
-            continue
-        
-        repo_urls = [repo["html_url"] for repo in data["items"]]
-        
-        # Save to file
-        filename = f"github_repos_{lang}.txt"
-        with open(filename, "w") as file:
-            for url in repo_urls:
-                file.write(url + "\n")
-        
-        print(f"✅ {len(repo_urls)} repos for {lang} saved to {filename}")
-        
-        # Respect GitHub rate limits - small delay
+        for repo in r.json().get("items", []):
+            full = repo["full_name"]
+            print(f"📦 Repo: {full}")
+            download_code_files(full, lang, ext, max_files=per_repo_files)
         time.sleep(1)
+
+
+if __name__ == "__main__":
+    fetch_github_code(per_lang_repos=5, per_repo_files=3)

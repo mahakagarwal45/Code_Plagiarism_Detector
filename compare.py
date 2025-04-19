@@ -1,5 +1,4 @@
 # compare.py
-
 from preprocess import preprocess_code
 from language_parsers.ast_parser import get_ast_structure
 from tokenizer import tokenize_code
@@ -111,6 +110,13 @@ def calculate_behavioral_similarity(code1, code2, test_cases):
     behavioral_similarity = 0.7 * output_similarity + 0.3 * time_penalty
     return round(behavioral_similarity, 4)
 
+def extract_similarity_features(results_dict):
+    """Extract [synthetic, structural, behavioral] features for ML prediction."""
+    return [
+        results_dict["Synthetic Similarity"],
+        results_dict["Structural Similarity"],
+        results_dict["Behavioral Similarity"]
+    ]
 
 def compare_codes(code1, code2, test_cases=None, verbose=False):
     """Compares two codes using multiple techniques and returns similarity scores."""
