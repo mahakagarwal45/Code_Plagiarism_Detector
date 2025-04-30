@@ -1,32 +1,21 @@
-#include <bits/stdc++.h>
-using namespace std;
+def bucket_type_key(bucket_type):
+    """
+    Registers a function that calculates test item key for the specified bucket type.
+    """
 
-void solution(long long int A[],long long int B[],long long int m,long long int n){
-    long long int dp[n+1][m+1];
-    memset(dp,0,sizeof(dp));
-    for(int i=1;i<=n;i++){
-        for(int j=i;j<=m;j++){
-            dp[i][j]=(max(dp[i-1][j-1]+(A[j-1]*B[i-1]),dp[i][j-1]));
-        }
-    }
-    cout<<dp[n][m]<<endl;
-    return;
-}
+    def decorator(f):
 
-int main() {
-	int T;
-	cin>>T;
-	while(T--){
-	    int m,n;
-	    cin>>m>>n;
-	    long long int A[m],B[n];
-	    for(int i=0;i<m;i++){
-	        cin>>A[i];
-	    }
-	    for(int i=0;i<n;i++){
-	        cin>>B[i];
-	    }
-	    solution(A,B,m,n);
-	}
-	return 0;
-}
+        @functools.wraps(f)
+        def wrapped(item, session):
+            key = f(item)
+
+            if session is not None:
+                for handler in session.random_order_bucket_type_key_handlers:
+                    key = handler(item, key)
+
+            return key
+
+        bucket_type_keys[bucket_type] = wrapped
+        return wrapped
+
+    return decorator

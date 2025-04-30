@@ -16,57 +16,57 @@ def is_plagiarized(similarity_score, threshold=0.7):
     return similarity_score >= threshold
 
 
-def hash_similarity(hash1, hash2):
-    """Returns similarity ratio between two hashes."""
-    return SequenceMatcher(None, hash1, hash2).ratio()
-
-
-def compare_ast_structures(code1, code2):
+def compare_ast_structures(user_code, reference_code):
     """Compare AST structures by dumping and checking string equality."""
     try:
-        ast1 = get_ast_structure(code1)
-        ast2 = get_ast_structure(code2)
-        return ast.dump(ast1) == ast.dump(ast2)
+        ast_user = get_ast_structure(user_code)
+        ast_ref = get_ast_structure(reference_code)
+        return ast.dump(ast_user) == ast.dump(ast_ref)
     except Exception:
         return False
 
 
-def compare_cfg(code1, code2):
+def compare_cfg(user_code, reference_code):
     """Compare Control Flow Graphs (CFGs) for two code snippets."""
-    cfg1 = generate_cfg(code1)
-    cfg2 = generate_cfg(code2)
+    cfg_user = generate_cfg(user_code)
+    cfg_ref = generate_cfg(reference_code)
 
-    if isinstance(cfg1, str) or isinstance(cfg2, str):
+    if isinstance(cfg_user, str) or isinstance(cfg_ref, str):
         return False
 
-    return nx.is_isomorphic(cfg1, cfg2)
+    return nx.is_isomorphic(cfg_user, cfg_ref)
 
 
-def calculate_synthetic_similarity(code1, code2):
+def calculate_synthetic_similarity(user_code, reference_code):
     """Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes."""
-    norm1 = normalize_code(code1)
-    norm2 = normalize_code(code2)
-    normalized_similarity = SequenceMatcher(None, norm1, norm2).ratio()
+    normalized_user = normalize_code(user_code)
+    normalized_ref = normalize_code(reference_code)
+    normalized_similarity = SequenceMatcher(None, normalized_user, normalized_ref).ratio()
 
-    tokens1 = tokenize_code(code1)
-    tokens2 = tokenize_code(code2)
-    token_match = tokens1 == tokens2
+    tokens_user = tokenize_code(user_code)
+    tokens_ref = tokenize_code(reference_code)
+    token_match = tokens_user == tokens_ref
 
-    hash1 = hash_code(code1)
-    hash2 = hash_code(code2)
-    hash_match = hash1 == hash2
+    hash_user = hash_code(user_code)
+    hash_ref = hash_code(reference_code)
+    hash_match = hash_user == hash_ref
 
-    synthetic_similarity = 0.4 * normalized_similarity + 0.3 * int(token_match) + 0.3 * int(hash_match)
-    return round(synthetic_similarity, 4), tokens1, tokens2, hash1, hash2
+    synthetic_similarity = (
+        0.4 * normalized_similarity +
+        0.3 * int(token_match) +
+        0.3 * int(hash_match)
+    )
+
+    return round(synthetic_similarity, 4)
 
 
-def calculate_structural_similarity(code1, code2):
+def calculate_structural_similarity(user_code, reference_code):
     """Calculate structural similarity using AST and CFG."""
-    ast_match = compare_ast_structures(code1, code2)
-    cfg_match = compare_cfg(code1, code2)
+    ast_match = compare_ast_structures(user_code, reference_code)
+    cfg_match = compare_cfg(user_code, reference_code)
 
     structural_similarity = 0.5 * int(ast_match) + 0.5 * int(cfg_match)
-    return round(structural_similarity, 4), ast_match, cfg_match
+    return round(structural_similarity, 4)
 
 
 def run_test_cases(code, test_cases):
@@ -77,7 +77,7 @@ def run_test_cases(code, test_cases):
         try:
             exec_globals = {}
             exec(code, exec_globals)
-            func_name = list(exec_globals.keys())[0]
+            func_name = [name for name in exec_globals if not name.startswith("__")][0]
             func = exec_globals[func_name]
 
             start_time = time.time()
@@ -91,24 +91,26 @@ def run_test_cases(code, test_cases):
     return results
 
 
-def calculate_behavioral_similarity(code1, code2, test_cases):
+def calculate_behavioral_similarity(user_code, reference_code, test_cases):
     """Compare code behavior based on input-output similarity and execution time."""
-    results1 = run_test_cases(code1, test_cases)
-    results2 = run_test_cases(code2, test_cases)
+    results_user = run_test_cases(user_code, test_cases)
+    results_ref = run_test_cases(reference_code, test_cases)
 
     matching_outputs = 0
     total_cases = len(test_cases)
     time_diff_sum = 0
 
-    for (output1, time1), (output2, time2) in zip(results1, results2):
-        if output1 == output2:
+    for (output_user, time_user), (output_ref, time_ref) in zip(results_user, results_ref):
+        if output_user == output_ref:
             matching_outputs += 1
-        time_diff_sum += abs(time1 - time2)
+        time_diff_sum += abs(time_user - time_ref)
 
     output_similarity = matching_outputs / total_cases
     time_penalty = 1 - min(1, time_diff_sum / total_cases)
+
     behavioral_similarity = 0.7 * output_similarity + 0.3 * time_penalty
     return round(behavioral_similarity, 4)
+
 
 def extract_similarity_features(results_dict):
     """Extract [synthetic, structural, behavioral] features for ML prediction."""
@@ -118,25 +120,35 @@ def extract_similarity_features(results_dict):
         results_dict["Behavioral Similarity"]
     ]
 
-def compare_codes(code1, code2, test_cases=None, verbose=False):
-    """Compares two codes using multiple techniques and returns similarity scores."""
-    code1, code2 = preprocess_code(code1), preprocess_code(code2)
 
-    synthetic_similarity, tokens1, tokens2, hash1, hash2 = calculate_synthetic_similarity(code1, code2)
-    structural_similarity, ast_match, cfg_match = calculate_structural_similarity(code1, code2)
+def compare_codes(user_code, reference_code, test_cases=None, verbose=False):
+    """Compares two codes using multiple techniques and returns similarity scores."""
+    user_code = preprocess_code(user_code)
+    reference_code = preprocess_code(reference_code)
+
+    synthetic_similarity = calculate_synthetic_similarity(user_code, reference_code)
+    structural_similarity = calculate_structural_similarity(user_code, reference_code)
 
     if test_cases:
-        behavioral_similarity = calculate_behavioral_similarity(code1, code2, test_cases)
+        behavioral_similarity = calculate_behavioral_similarity(user_code, reference_code, test_cases)
     else:
         behavioral_similarity = 0.0
 
-    text_similarity = SequenceMatcher(None, code1, code2).ratio()
+    text_similarity = SequenceMatcher(None, user_code, reference_code).ratio()
+
+    # Matches
+    ast_match = compare_ast_structures(user_code, reference_code)
+    cfg_match = compare_cfg(user_code, reference_code)
+    tokens_user = tokenize_code(user_code)
+    tokens_ref = tokenize_code(reference_code)
+    hash_user = hash_code(user_code)
+    hash_ref = hash_code(reference_code)
 
     results = {
         "AST Match": ast_match,
         "CFG Match": cfg_match,
-        "Token Match": tokens1 == tokens2,
-        "Hash Match": hash1 == hash2,
+        "Token Match": tokens_user == tokens_ref,
+        "Hash Match": hash_user == hash_ref,
         "Text Similarity Score": round(text_similarity, 4),
         "Synthetic Similarity": synthetic_similarity,
         "Structural Similarity": structural_similarity,
@@ -144,7 +156,7 @@ def compare_codes(code1, code2, test_cases=None, verbose=False):
     }
 
     if verbose:
-        for k, v in results.items():
-            print(f"{k}: {v}")
+        for key, value in results.items():
+            print(f"{key}: {value}")
 
     return results

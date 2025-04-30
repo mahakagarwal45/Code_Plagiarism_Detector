@@ -1,5 +1,80 @@
 [
     {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "datasets",
+        "description": "datasets",
+        "isExtraImport": true,
+        "detail": "datasets",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "KaggleApi",
+        "importPath": "kaggle.api.kaggle_api_extended",
+        "description": "kaggle.api.kaggle_api_extended",
+        "isExtraImport": true,
+        "detail": "kaggle.api.kaggle_api_extended",
+        "documentation": {}
+    },
+    {
         "label": "ast",
         "kind": 6,
         "isExtraImport": true,
@@ -99,14 +174,6 @@
         "documentation": {}
     },
     {
-        "label": "jsonify",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
         "label": "Api",
         "importPath": "flask_restful",
         "description": "flask_restful",
@@ -139,7 +206,7 @@
         "documentation": {}
     },
     {
-        "label": "compare_file_pair",
+        "label": "load_code",
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
         "isExtraImport": true,
@@ -147,7 +214,71 @@
         "documentation": {}
     },
     {
-        "label": "load_code",
+        "label": "preprocess_code",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_code",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_code",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_ast",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_cfg",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_hash_similarity",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_structural_similarity",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_synthetic_similarity",
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "isExtraImport": true,
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_behavioral_similarity",
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
         "isExtraImport": true,
@@ -163,12 +294,54 @@
         "documentation": {}
     },
     {
-        "label": "os",
+        "label": "A4",
+        "importPath": "reportlab.lib.pagesizes",
+        "description": "reportlab.lib.pagesizes",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.pagesizes",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "io",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "BytesIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
         "documentation": {}
     },
     {
@@ -181,29 +354,60 @@
         "documentation": {}
     },
     {
+        "label": "fetch_github_code",
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_github_code",
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
         "label": "networkx",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "networkx",
         "description": "networkx",
         "detail": "networkx",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "load_dataset",
-        "importPath": "datasets",
-        "description": "datasets",
-        "isExtraImport": true,
-        "detail": "datasets",
         "documentation": {}
     },
     {
@@ -295,24 +499,6 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
         "label": "accuracy_score",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -366,6 +552,62 @@
         "description": "sklearn.metrics",
         "isExtraImport": true,
         "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "recall_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "f1_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "importPath": "fetchers.codesearchnet_fetch",
+        "description": "fetchers.codesearchnet_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.codesearchnet_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "importPath": "fetchers.codesearchnet_fetch",
+        "description": "fetchers.codesearchnet_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.codesearchnet_fetch",
         "documentation": {}
     },
     {
@@ -442,7 +684,7 @@
         "documentation": {}
     },
     {
-        "label": "# ✅ Corrected name\r\n    visualize_behavioral_similarity",
+        "label": "visualize_behavioral_similarity",
         "importPath": "visualizer",
         "description": "visualizer",
         "isExtraImport": true,
@@ -467,48 +709,6 @@
         "documentation": {}
     },
     {
-        "label": "io",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "io",
-        "description": "io",
-        "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "BytesIO",
-        "importPath": "io",
-        "description": "io",
-        "isExtraImport": true,
-        "detail": "io",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "requests,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests.",
-        "description": "requests.",
-        "detail": "requests.",
-        "documentation": {}
-    },
-    {
         "label": "hashlib",
         "kind": 6,
         "isExtraImport": true,
@@ -518,11 +718,28 @@
         "documentation": {}
     },
     {
-        "label": "fetch_reference_codes",
-        "importPath": "codesearchnet_fetch",
-        "description": "codesearchnet_fetch",
+        "label": "argparse",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "codesearchnet_fetch",
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_gfg_code",
+        "importPath": "fetchers.gfg_fetch",
+        "description": "fetchers.gfg_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.gfg_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_cf_info",
+        "importPath": "fetchers.codeforces_fetch",
+        "description": "fetchers.codeforces_fetch",
+        "isExtraImport": true,
+        "detail": "fetchers.codeforces_fetch",
         "documentation": {}
     },
     {
@@ -559,12 +776,20 @@
         "documentation": {}
     },
     {
-        "label": "tokenize",
+        "label": "nltk",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "tokenize",
-        "description": "tokenize",
-        "detail": "tokenize",
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
         "documentation": {}
     },
     {
@@ -573,6 +798,113 @@
         "description": "sklearn.ensemble",
         "isExtraImport": true,
         "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_cf_info",
+        "kind": 2,
+        "importPath": "fetchers.codeforces_fetch",
+        "description": "fetchers.codeforces_fetch",
+        "peekOfCode": "def fetch_cf_info(username):\n    url = f\"https://codeforces.com/api/user.info?handles={username}\"\n    res = requests.get(url).json()\n    if res[\"status\"] != \"OK\":\n        print(\"❌ Codeforces user not found!\")\n        return\n    user = res[\"result\"][0]\n    print(f\"🎖️ Handle: {user['handle']}\")\n    print(f\"🏅 Rating: {user.get('rating', 'Unrated')}\")\n    print(f\"📈 Max Rating: {user.get('maxRating', 'N/A')}\")",
+        "detail": "fetchers.codeforces_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "kind": 2,
+        "importPath": "fetchers.codesearchnet_fetch",
+        "description": "fetchers.codesearchnet_fetch",
+        "peekOfCode": "def fetch_reference_codes(language: str, max_files: int = 10):\n    \"\"\"\n    Fetches top `max_files` code snippets for `language` from CodeSearchNet\n    and writes them to reference_codes/{language}_{i}.<ext>\n    \"\"\"\n    ds = load_dataset(\n        \"code_search_net\", \n        language, \n        split=\"train\", \n        trust_remote_code=True",
+        "detail": "fetchers.codesearchnet_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_gfg_code",
+        "kind": 2,
+        "importPath": "fetchers.gfg_fetch",
+        "description": "fetchers.gfg_fetch",
+        "peekOfCode": "def fetch_gfg_code(username):\n    url = f\"https://auth.geeksforgeeks.org/user/{username}/practice/\"\n    res = requests.get(url)\n    if res.status_code != 200:\n        print(\"❌ GFG user not found!\")\n        return\n    soup = BeautifulSoup(res.text, 'html.parser')\n    titles = soup.find_all('span', class_='score_card_problem_name')\n    print(f\"✅ {len(titles)} problems fetched for {username}\")\n    for t in titles[:5]:",
+        "detail": "fetchers.gfg_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "download_code_files",
+        "kind": 2,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "def download_code_files(repo_full_name, lang, ext, max_files=3):\n    url = f\"https://api.github.com/repos/{repo_full_name}/contents\"\n    r = requests.get(url, headers=HEADERS)\n    if r.status_code != 200:\n        print(f\"  ⚠️ Couldn't list {repo_full_name}: HTTP {r.status_code}\")\n        return\n    files = r.json()\n    saved = 0\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_github_code",
+        "kind": 2,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "def fetch_github_code():\n    for lang, ext in LANGUAGES.items():\n        print(f\"\\n🔍 Fetching top repos for {lang}\")\n        r = requests.get(SEARCH_URL.format(lang), headers=HEADERS)\n        if r.status_code != 200:\n            print(f\"❌ Search failed for {lang}: HTTP {r.status_code}\")\n            continue\n        for repo in r.json().get(\"items\", []):\n            print(\"📦\", repo[\"full_name\"])\n            download_code_files(repo[\"full_name\"], lang, ext)",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "GITHUB_TOKEN",
+        "kind": 5,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "GITHUB_TOKEN = os.getenv(\"GITHUB_TOKEN\")\nif not GITHUB_TOKEN:\n    print(\"❌ Please create a .env file with GITHUB_TOKEN=<your‑token>\")\n    exit(1)\nLANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"cpp\":    \".cpp\",\n}\nSEARCH_URL = \"https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=5\"",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGES",
+        "kind": 5,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "LANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"cpp\":    \".cpp\",\n}\nSEARCH_URL = \"https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=5\"\nHEADERS = {\n    \"Authorization\": f\"token {GITHUB_TOKEN}\",\n    \"Accept\":        \"application/vnd.github.v3+json\"\n}",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "SEARCH_URL",
+        "kind": 5,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "SEARCH_URL = \"https://api.github.com/search/repositories?q=language:{}&sort=stars&per_page=5\"\nHEADERS = {\n    \"Authorization\": f\"token {GITHUB_TOKEN}\",\n    \"Accept\":        \"application/vnd.github.v3+json\"\n}\ndef download_code_files(repo_full_name, lang, ext, max_files=3):\n    url = f\"https://api.github.com/repos/{repo_full_name}/contents\"\n    r = requests.get(url, headers=HEADERS)\n    if r.status_code != 200:\n        print(f\"  ⚠️ Couldn't list {repo_full_name}: HTTP {r.status_code}\")",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "fetchers.github_fetch",
+        "description": "fetchers.github_fetch",
+        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"token {GITHUB_TOKEN}\",\n    \"Accept\":        \"application/vnd.github.v3+json\"\n}\ndef download_code_files(repo_full_name, lang, ext, max_files=3):\n    url = f\"https://api.github.com/repos/{repo_full_name}/contents\"\n    r = requests.get(url, headers=HEADERS)\n    if r.status_code != 200:\n        print(f\"  ⚠️ Couldn't list {repo_full_name}: HTTP {r.status_code}\")\n        return",
+        "detail": "fetchers.github_fetch",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_kaggle",
+        "kind": 2,
+        "importPath": "fetchers.kaggle",
+        "description": "fetchers.kaggle",
+        "peekOfCode": "def authenticate_kaggle():\n    \"\"\"\n    Authenticate with Kaggle using the kaggle.json file.\n    The `kaggle.json` file should be placed in the path: ~/.kaggle/kaggle.json\n    \"\"\"\n    # Check if kaggle.json exists in the default location\n    kaggle_json_path = os.path.expanduser('~/.kaggle/kaggle.json')\n    if not os.path.exists(kaggle_json_path):\n        print(\"❌ Kaggle API key not found! Please place kaggle.json in ~/.kaggle/\")\n        return None",
+        "detail": "fetchers.kaggle",
+        "documentation": {}
+    },
+    {
+        "label": "download_kaggle_code_samples",
+        "kind": 2,
+        "importPath": "fetchers.kaggle",
+        "description": "fetchers.kaggle",
+        "peekOfCode": "def download_kaggle_code_samples(dataset_name, download_path):\n    \"\"\"\n    Download the files of a Kaggle dataset and unzip them into the specified path.\n    \"\"\"\n    api = authenticate_kaggle()\n    if api is None:\n        return  # Exit if authentication fails\n    # Download the dataset and unzip\n    print(f\"🔄 Downloading {dataset_name} dataset...\")\n    api.dataset_download_files(dataset_name, path=download_path, unzip=True)",
+        "detail": "fetchers.kaggle",
         "documentation": {}
     },
     {
@@ -621,6 +953,96 @@
         "documentation": {}
     },
     {
+        "label": "fresh",
+        "kind": 2,
+        "importPath": "reference_codes.python_0",
+        "description": "reference_codes.python_0",
+        "peekOfCode": "def fresh(self) -> bool:\n        \"\"\"\n        检查请求缓存是否“新鲜”，也就是内容没有改变。\n        此方法用于 If-None-Match / ETag, 和 If-Modified-Since 和 Last-Modified 之间的缓存协商。\n        在设置一个或多个这些响应头后应该引用它。\n        \"\"\"\n        method_str = self.method\n        if method_str != 'GET' and method_str != 'HEAD':\n            return False\n        s = self.ctx.status",
+        "detail": "reference_codes.python_0",
+        "documentation": {}
+    },
+    {
+        "label": "attrib",
+        "kind": 2,
+        "importPath": "reference_codes.python_1",
+        "description": "reference_codes.python_1",
+        "peekOfCode": "def attrib(self):\n        \"\"\"\n        General XML element attributes for a seismic source, as a dict.\n        \"\"\"\n        return dict([\n            ('id', str(self.id)),\n            ('name', str(self.name)),\n            ('tectonicRegion', str(self.trt)),\n        ])",
+        "detail": "reference_codes.python_1",
+        "documentation": {}
+    },
+    {
+        "label": "update_views",
+        "kind": 2,
+        "importPath": "reference_codes.python_2",
+        "description": "reference_codes.python_2",
+        "peekOfCode": "def update_views(self):\n        \"\"\"Update stats views.\"\"\"\n        # Call the father's method\n        super(Plugin, self).update_views()\n        # Add specifics informations\n        # Alert and log\n        self.views['used']['decoration'] = self.get_alert_log(self.stats['used'], maximum=self.stats['total'])",
+        "detail": "reference_codes.python_2",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "reference_codes.python_3",
+        "description": "reference_codes.python_3",
+        "peekOfCode": "def add(cls, model, commit=True):\n        \"\"\"Adds a model instance to session and commits the\n        transaction.\n        Args:\n            model: The instance to add.\n        Examples:\n            >>> customer = Customer.new(name=\"hari\", email=\"hari@gmail.com\")\n            >>> Customer.add(customer)\n            hari@gmail.com\n        \"\"\"",
+        "detail": "reference_codes.python_3",
+        "documentation": {}
+    },
+    {
+        "label": "bucket_type_key",
+        "kind": 2,
+        "importPath": "reference_codes.python_4",
+        "description": "reference_codes.python_4",
+        "peekOfCode": "def bucket_type_key(bucket_type):\n    \"\"\"\n    Registers a function that calculates test item key for the specified bucket type.\n    \"\"\"\n    def decorator(f):\n        @functools.wraps(f)\n        def wrapped(item, session):\n            key = f(item)\n            if session is not None:\n                for handler in session.random_order_bucket_type_key_handlers:",
+        "detail": "reference_codes.python_4",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_commit_message",
+        "kind": 2,
+        "importPath": "reference_codes.python_5",
+        "description": "reference_codes.python_5",
+        "peekOfCode": "def normalize_commit_message(commit_message):\n    \"\"\"\n    Return a tuple of title and body from the commit message\n    \"\"\"\n    split_commit_message = commit_message.split(\"\\n\")\n    title = split_commit_message[0]\n    body = \"\\n\".join(split_commit_message[1:])\n    return title, body.lstrip(\"\\n\")",
+        "detail": "reference_codes.python_5",
+        "documentation": {}
+    },
+    {
+        "label": "get_properties_from_graph",
+        "kind": 2,
+        "importPath": "reference_codes.python_7",
+        "description": "reference_codes.python_7",
+        "peekOfCode": "def get_properties_from_graph(graph):\n        \"\"\"\n        Wrapper for RDFLib.graph.predicates() that returns a unique set\n        :param graph: RDFLib.graph\n        :return: set, set of properties\n        \"\"\"\n        # collapse to single list\n        property_set = set()\n        for row in graph.predicates():\n            property_set.add(row)",
+        "detail": "reference_codes.python_7",
+        "documentation": {}
+    },
+    {
+        "label": "grad",
+        "kind": 2,
+        "importPath": "reference_codes.python_8",
+        "description": "reference_codes.python_8",
+        "peekOfCode": "def grad(self, X, lenscale=None):\n        r\"\"\"\n        Get the gradients of this basis w.r.t.\\ the length scale.\n        Parameters\n        ----------\n        x: ndarray\n            (n, d) array of observations where n is the number of samples, and\n            d is the dimensionality of x.\n        lenscale: scalar or ndarray\n            scalar or array of shape (d,) length scales (one for each dimension",
+        "detail": "reference_codes.python_8",
+        "documentation": {}
+    },
+    {
+        "label": "root_item_selected",
+        "kind": 2,
+        "importPath": "reference_codes.python_9",
+        "description": "reference_codes.python_9",
+        "peekOfCode": "def root_item_selected(self, item):\n        \"\"\"Root item has been selected: expanding it and collapsing others\"\"\"\n        if self.show_all_files:\n            return\n        for root_item in self.get_top_level_items():\n            if root_item is item:\n                self.expandItem(root_item)\n            else:\n                self.collapseItem(root_item)",
+        "detail": "reference_codes.python_9",
+        "documentation": {}
+    },
+    {
+        "label": "bucket_type_key",
+        "kind": 2,
+        "importPath": "uploads.user_code",
+        "description": "uploads.user_code",
+        "peekOfCode": "def bucket_type_key(bucket_type):\n    \"\"\"\n    Registers a function that calculates test item key for the specified bucket type.\n    \"\"\"\n    def decorator(f):\n        @functools.wraps(f)\n        def wrapped(item, session):\n            key = f(item)\n            if session is not None:\n                for handler in session.random_order_bucket_type_key_handlers:",
+        "detail": "uploads.user_code",
+        "documentation": {}
+    },
+    {
         "label": "calculate_similarity",
         "kind": 2,
         "importPath": "utils.similarity_checker",
@@ -657,11 +1079,47 @@
         "documentation": {}
     },
     {
+        "label": "LanguageForm",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],\n        validators=[DataRequired()]\n    )\n# # Streamlit interface\n# st.title(\"Compare Your Code with Kaggle Code\")\n# # Upload the user's code file\n# uploaded_file = st.file_uploader(\"Upload your code file\", type=[\"py\", \"java\", \"cpp\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_codeforces_info",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def fetch_codeforces_info(username):\n    url = f\"https://codeforces.com/api/user.info?handles={username}\"\n    response = requests.get(url)\n    data = response.json()\n    if data['status'] == 'OK':\n        user = data['result'][0]\n        return {\n            'handle': user['handle'],\n            'rank': user['rank'],\n            'rating': user['rating'],",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_gfg_code",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def fetch_gfg_code(username):\n    url = f\"https://gfg-api-fefa.onrender.com/{username}\"\n    response = requests.get(url)\n    return response.json() if response.status_code == 200 else None\n# Fetch CodeSearchNet Code Snippets\ndef fetch_reference_codes(language, max_files=10):\n    dataset = load_dataset(\"code_search_net\", language, split=\"train\")\n    samples = dataset.shuffle(seed=42).select(range(max_files))\n    return [sample['code'] for sample in samples]\n@app.route(\"/\", methods=[\"GET\", \"POST\"])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_reference_codes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def fetch_reference_codes(language, max_files=10):\n    dataset = load_dataset(\"code_search_net\", language, split=\"train\")\n    samples = dataset.shuffle(seed=42).select(range(max_files))\n    return [sample['code'] for sample in samples]\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
         "label": "home",
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"\n    if request.method == \"POST\":\n        try:",
+        "peekOfCode": "def home():\n    results = None\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"\n    form = LanguageForm()\n    if form.validate_on_submit():\n        selected_language = form.language.data\n        # Handle the selected language\n        return f\"Selected Language: {selected_language}\"",
         "detail": "app",
         "documentation": {}
     },
@@ -670,7 +1128,43 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def download_report():\n    return send_file(REPORT_PATH, as_attachment=True)\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "peekOfCode": "def download_report():\n    overall_avg = report_data[\"overall_avg\"]  # <-- add this line\n    precision = report_data[\"precision\"]\n    recall = report_data[\"recall\"]\n    f1 = report_data[\"f1\"]\n    accuracy = report_data[\"accuracy\"]\n    confusion_matrix = report_data[\"confusion_matrix\"]\n    # Create pie chart\n    pie_labels = ['Original', 'Plagiarized']\n    pie_sizes = [100 - overall_avg, overall_avg]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "codeforces",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def codeforces():\n    user_info = None\n    if request.method == \"POST\":\n        username = request.form.get(\"username\")\n        if username:\n            user_info = fetch_codeforces_info(username)\n    return render_template(\"codeforces.html\", user_info=user_info)\n@app.route(\"/gfg\", methods=[\"POST\"])\ndef gfg():\n    username = request.form.get(\"gfg_username\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "gfg",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def gfg():\n    username = request.form.get(\"gfg_username\")\n    user_data = fetch_gfg_code(username)\n    if user_data:\n        return render_template(\"gfg.html\", user_data=user_data)\n    else:\n        return \"GFG user not found\", 404\n@app.route(\"/codesearchnet\", methods=[\"POST\"])\ndef codesearchnet():\n    language = request.form.get(\"language\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "codesearchnet",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def codesearchnet():\n    language = request.form.get(\"language\")\n    code_snippets = fetch_reference_codes(language)\n    return render_template(\"codesearchnet.html\", code_snippets=code_snippets)\nif __name__ == \"__main__\":\n    app.run(debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "report_data",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "report_data = {\n    \"overall_avg\": 0,\n    \"precision\": 85,\n    \"recall\": 80,\n    \"f1\": 82.5,\n    \"accuracy\": 83,\n    \"confusion_matrix\": [[50, 10], [5, 35]]\n}\n# import streamlit as st\n# from kaggle import download_kaggle_code_samples",
         "detail": "app",
         "documentation": {}
     },
@@ -679,7 +1173,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app = Flask(__name__)\nUPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0",
+        "peekOfCode": "app = Flask(__name__)\nUPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\nclass LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],",
         "detail": "app",
         "documentation": {}
     },
@@ -688,7 +1182,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "UPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0",
+        "peekOfCode": "UPLOAD_FOLDER = 'uploads/'\nREPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\nclass LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],\n        validators=[DataRequired()]",
         "detail": "app",
         "documentation": {}
     },
@@ -697,7 +1191,7 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "REPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}",
+        "peekOfCode": "REPORT_PATH = 'report.csv'\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\nclass LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],\n        validators=[DataRequired()]\n    )",
         "detail": "app",
         "documentation": {}
     },
@@ -706,7 +1200,16 @@
         "kind": 5,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    avg_scores = {}\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\nclass LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],\n        validators=[DataRequired()]\n    )\n# # Streamlit interface",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\nclass LanguageForm(FlaskForm):\n    language = SelectField(\n        'Programming Language',\n        choices=[('cpp', 'C++'), ('py', 'Python'), ('java', 'Java')],\n        validators=[DataRequired()]\n    )\n# # Streamlit interface\n# st.title(\"Compare Your Code with Kaggle Code\")",
         "detail": "app",
         "documentation": {}
     },
@@ -756,38 +1259,11 @@
         "documentation": {}
     },
     {
-        "label": "fetch_cf_info",
-        "kind": 2,
-        "importPath": "codeforces_fetch",
-        "description": "codeforces_fetch",
-        "peekOfCode": "def fetch_cf_info(username):\n    url = f\"https://codeforces.com/api/user.info?handles={username}\"\n    res = requests.get(url).json()\n    if res[\"status\"] != \"OK\":\n        print(\"❌ Codeforces user not found!\")\n        return\n    user = res[\"result\"][0]\n    print(f\"🎖️ Handle: {user['handle']}\")\n    print(f\"🏅 Rating: {user.get('rating', 'Unrated')}\")\n    print(f\"📈 Max Rating: {user.get('maxRating', 'N/A')}\")",
-        "detail": "codeforces_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "fetch_reference_codes",
-        "kind": 2,
-        "importPath": "codesearchnet_fetch",
-        "description": "codesearchnet_fetch",
-        "peekOfCode": "def fetch_reference_codes(language: str, max_files: int = 10):\n    \"\"\"\n    Fetches top `max_files` code snippets for `language` from CodeSearchNet\n    and writes them to reference_codes/{language}_{i}.<ext>\n    \"\"\"\n    ds = load_dataset(\n        \"code_search_net\", \n        language, \n        split=\"train\", \n        trust_remote_code=True",
-        "detail": "codesearchnet_fetch",
-        "documentation": {}
-    },
-    {
         "label": "is_plagiarized",
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def is_plagiarized(similarity_score, threshold=0.7):\n    \"\"\"Returns True if similarity score is above threshold.\"\"\"\n    return similarity_score >= threshold\ndef hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)",
-        "detail": "compare",
-        "documentation": {}
-    },
-    {
-        "label": "hash_similarity",
-        "kind": 2,
-        "importPath": "compare",
-        "description": "compare",
-        "peekOfCode": "def hash_similarity(hash1, hash2):\n    \"\"\"Returns similarity ratio between two hashes.\"\"\"\n    return SequenceMatcher(None, hash1, hash2).ratio()\ndef compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)\n        ast2 = get_ast_structure(code2)\n        return ast.dump(ast1) == ast.dump(ast2)\n    except Exception:",
+        "peekOfCode": "def is_plagiarized(similarity_score, threshold=0.7):\n    \"\"\"Returns True if similarity score is above threshold.\"\"\"\n    return similarity_score >= threshold\ndef compare_ast_structures(user_code, reference_code):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast_user = get_ast_structure(user_code)\n        ast_ref = get_ast_structure(reference_code)\n        return ast.dump(ast_user) == ast.dump(ast_ref)\n    except Exception:",
         "detail": "compare",
         "documentation": {}
     },
@@ -796,7 +1272,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def compare_ast_structures(code1, code2):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast1 = get_ast_structure(code1)\n        ast2 = get_ast_structure(code2)\n        return ast.dump(ast1) == ast.dump(ast2)\n    except Exception:\n        return False\ndef compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"",
+        "peekOfCode": "def compare_ast_structures(user_code, reference_code):\n    \"\"\"Compare AST structures by dumping and checking string equality.\"\"\"\n    try:\n        ast_user = get_ast_structure(user_code)\n        ast_ref = get_ast_structure(reference_code)\n        return ast.dump(ast_user) == ast.dump(ast_ref)\n    except Exception:\n        return False\ndef compare_cfg(user_code, reference_code):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"",
         "detail": "compare",
         "documentation": {}
     },
@@ -805,7 +1281,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def compare_cfg(code1, code2):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg1 = generate_cfg(code1)\n    cfg2 = generate_cfg(code2)\n    if isinstance(cfg1, str) or isinstance(cfg2, str):\n        return False\n    return nx.is_isomorphic(cfg1, cfg2)\ndef calculate_synthetic_similarity(code1, code2):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    norm1 = normalize_code(code1)",
+        "peekOfCode": "def compare_cfg(user_code, reference_code):\n    \"\"\"Compare Control Flow Graphs (CFGs) for two code snippets.\"\"\"\n    cfg_user = generate_cfg(user_code)\n    cfg_ref = generate_cfg(reference_code)\n    if isinstance(cfg_user, str) or isinstance(cfg_ref, str):\n        return False\n    return nx.is_isomorphic(cfg_user, cfg_ref)\ndef calculate_synthetic_similarity(user_code, reference_code):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    normalized_user = normalize_code(user_code)",
         "detail": "compare",
         "documentation": {}
     },
@@ -814,7 +1290,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def calculate_synthetic_similarity(code1, code2):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    norm1 = normalize_code(code1)\n    norm2 = normalize_code(code2)\n    normalized_similarity = SequenceMatcher(None, norm1, norm2).ratio()\n    tokens1 = tokenize_code(code1)\n    tokens2 = tokenize_code(code2)\n    token_match = tokens1 == tokens2\n    hash1 = hash_code(code1)\n    hash2 = hash_code(code2)",
+        "peekOfCode": "def calculate_synthetic_similarity(user_code, reference_code):\n    \"\"\"Calculate synthetic similarity by normalizing, tokenizing, and comparing hashes.\"\"\"\n    normalized_user = normalize_code(user_code)\n    normalized_ref = normalize_code(reference_code)\n    normalized_similarity = SequenceMatcher(None, normalized_user, normalized_ref).ratio()\n    tokens_user = tokenize_code(user_code)\n    tokens_ref = tokenize_code(reference_code)\n    token_match = tokens_user == tokens_ref\n    hash_user = hash_code(user_code)\n    hash_ref = hash_code(reference_code)",
         "detail": "compare",
         "documentation": {}
     },
@@ -823,7 +1299,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def calculate_structural_similarity(code1, code2):\n    \"\"\"Calculate structural similarity using AST and CFG.\"\"\"\n    ast_match = compare_ast_structures(code1, code2)\n    cfg_match = compare_cfg(code1, code2)\n    structural_similarity = 0.5 * int(ast_match) + 0.5 * int(cfg_match)\n    return round(structural_similarity, 4), ast_match, cfg_match\ndef run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:",
+        "peekOfCode": "def calculate_structural_similarity(user_code, reference_code):\n    \"\"\"Calculate structural similarity using AST and CFG.\"\"\"\n    ast_match = compare_ast_structures(user_code, reference_code)\n    cfg_match = compare_cfg(user_code, reference_code)\n    structural_similarity = 0.5 * int(ast_match) + 0.5 * int(cfg_match)\n    return round(structural_similarity, 4)\ndef run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:",
         "detail": "compare",
         "documentation": {}
     },
@@ -832,7 +1308,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:\n        inputs, expected_output = case[\"input\"], case[\"expected_output\"]\n        try:\n            exec_globals = {}\n            exec(code, exec_globals)\n            func_name = list(exec_globals.keys())[0]\n            func = exec_globals[func_name]",
+        "peekOfCode": "def run_test_cases(code, test_cases):\n    \"\"\"Executes the code with given test cases and returns the results.\"\"\"\n    results = []\n    for case in test_cases:\n        inputs, expected_output = case[\"input\"], case[\"expected_output\"]\n        try:\n            exec_globals = {}\n            exec(code, exec_globals)\n            func_name = [name for name in exec_globals if not name.startswith(\"__\")][0]\n            func = exec_globals[func_name]",
         "detail": "compare",
         "documentation": {}
     },
@@ -841,7 +1317,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def calculate_behavioral_similarity(code1, code2, test_cases):\n    \"\"\"Compare code behavior based on input-output similarity and execution time.\"\"\"\n    results1 = run_test_cases(code1, test_cases)\n    results2 = run_test_cases(code2, test_cases)\n    matching_outputs = 0\n    total_cases = len(test_cases)\n    time_diff_sum = 0\n    for (output1, time1), (output2, time2) in zip(results1, results2):\n        if output1 == output2:\n            matching_outputs += 1",
+        "peekOfCode": "def calculate_behavioral_similarity(user_code, reference_code, test_cases):\n    \"\"\"Compare code behavior based on input-output similarity and execution time.\"\"\"\n    results_user = run_test_cases(user_code, test_cases)\n    results_ref = run_test_cases(reference_code, test_cases)\n    matching_outputs = 0\n    total_cases = len(test_cases)\n    time_diff_sum = 0\n    for (output_user, time_user), (output_ref, time_ref) in zip(results_user, results_ref):\n        if output_user == output_ref:\n            matching_outputs += 1",
         "detail": "compare",
         "documentation": {}
     },
@@ -850,7 +1326,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def extract_similarity_features(results_dict):\n    \"\"\"Extract [synthetic, structural, behavioral] features for ML prediction.\"\"\"\n    return [\n        results_dict[\"Synthetic Similarity\"],\n        results_dict[\"Structural Similarity\"],\n        results_dict[\"Behavioral Similarity\"]\n    ]\ndef compare_codes(code1, code2, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)",
+        "peekOfCode": "def extract_similarity_features(results_dict):\n    \"\"\"Extract [synthetic, structural, behavioral] features for ML prediction.\"\"\"\n    return [\n        results_dict[\"Synthetic Similarity\"],\n        results_dict[\"Structural Similarity\"],\n        results_dict[\"Behavioral Similarity\"]\n    ]\ndef compare_codes(user_code, reference_code, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    user_code = preprocess_code(user_code)",
         "detail": "compare",
         "documentation": {}
     },
@@ -859,7 +1335,7 @@
         "kind": 2,
         "importPath": "compare",
         "description": "compare",
-        "peekOfCode": "def compare_codes(code1, code2, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    code1, code2 = preprocess_code(code1), preprocess_code(code2)\n    synthetic_similarity, tokens1, tokens2, hash1, hash2 = calculate_synthetic_similarity(code1, code2)\n    structural_similarity, ast_match, cfg_match = calculate_structural_similarity(code1, code2)\n    if test_cases:\n        behavioral_similarity = calculate_behavioral_similarity(code1, code2, test_cases)\n    else:\n        behavioral_similarity = 0.0\n    text_similarity = SequenceMatcher(None, code1, code2).ratio()",
+        "peekOfCode": "def compare_codes(user_code, reference_code, test_cases=None, verbose=False):\n    \"\"\"Compares two codes using multiple techniques and returns similarity scores.\"\"\"\n    user_code = preprocess_code(user_code)\n    reference_code = preprocess_code(reference_code)\n    synthetic_similarity = calculate_synthetic_similarity(user_code, reference_code)\n    structural_similarity = calculate_structural_similarity(user_code, reference_code)\n    if test_cases:\n        behavioral_similarity = calculate_behavioral_similarity(user_code, reference_code, test_cases)\n    else:\n        behavioral_similarity = 0.0",
         "detail": "compare",
         "documentation": {}
     },
@@ -868,7 +1344,25 @@
         "kind": 2,
         "importPath": "evaluate",
         "description": "evaluate",
-        "peekOfCode": "def evaluate_plagiarism_detection(y_true, y_pred):\n    cm = confusion_matrix(y_true, y_pred)\n    print(\"Confusion Matrix:\\n\", cm)\n    print(f\"Accuracy:  {accuracy_score(y_true, y_pred):.4f}\")\n    print(f\"Precision: {precision_score(y_true, y_pred):.4f}\")\n    print(f\"Recall:    {recall_score(y_true, y_pred):.4f}\")\n    print(f\"F1 Score:  {f1_score(y_true, y_pred):.4f}\")\n    fpr, tpr, _ = roc_curve(y_true, y_pred)\n    roc_auc = auc(fpr, tpr)\n    plt.figure()",
+        "peekOfCode": "def evaluate_plagiarism_detection(user_file_path, reference_file_paths, labels):\n    print(f\"\\nEvaluating plagiarism for user file: {user_file_path}\\n\")\n    y_true, y_pred = [], []\n    # Load and preprocess user code\n    user_code_raw = load_code(user_file_path)\n    user_code_processed = preprocess_code(user_code_raw)\n    tokenized_user_code = tokenize_code(user_code_processed)\n    normalized_user_code = normalize_code(tokenized_user_code)\n    similarities = {}\n    for ref_file_path, label in zip(reference_file_paths, labels):",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "evaluate_metrics",
+        "kind": 2,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "def evaluate_metrics(y_true, y_pred):\n    cm = confusion_matrix(y_true, y_pred)\n    print(\"Confusion Matrix:\\n\", cm)\n    print(f\"Accuracy:  {accuracy_score(y_true, y_pred):.4f}\")\n    print(f\"Precision: {precision_score(y_true, y_pred):.4f}\")\n    print(f\"Recall:    {recall_score(y_true, y_pred):.4f}\")\n    print(f\"F1 Score:  {f1_score(y_true, y_pred):.4f}\")\n    fpr, tpr, _ = roc_curve(y_true, y_pred)\n    roc_auc = auc(fpr, tpr)\n    plt.figure()",
+        "detail": "evaluate",
+        "documentation": {}
+    },
+    {
+        "label": "plot_similarity_pie_chart",
+        "kind": 2,
+        "importPath": "evaluate",
+        "description": "evaluate",
+        "peekOfCode": "def plot_similarity_pie_chart(similarities):\n    labels = [os.path.basename(ref) for ref in similarities.keys()]\n    scores = list(similarities.values())\n    plt.figure(figsize=(6, 6))\n    plt.pie(scores, labels=labels, autopct='%1.1f%%', startangle=90, colors=plt.cm.Paired.colors)\n    plt.title(\"Similarity Scores Breakdown\")\n    plt.axis('equal')  # Equal aspect ratio ensures the pie is circular.\n    plt.show()",
         "detail": "evaluate",
         "documentation": {}
     },
@@ -895,7 +1389,7 @@
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        # Default weights for all similarity techniques\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,\n            \"Hash Match\": 0.1,",
+        "peekOfCode": "def calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,\n            \"Hash Match\": 0.1,\n            \"Synthetic Similarity\": 0.15,",
         "detail": "generate_report",
         "documentation": {}
     },
@@ -904,7 +1398,7 @@
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def make_plagiarism_decision(final_score, threshold=0.7):\n    \"\"\"Decides whether the code is plagiarized based on the final score.\"\"\"\n    return \"Plagiarized\" if final_score >= threshold else \"Original\"\ndef generate_report(user_code, external_sources, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    # Assume external_sources is a list of code snippets or file paths for comparison\n    results = {}\n    for i, source_code in enumerate(external_sources):\n        # Compare user code with external source code\n        comparison_result = compare_codes(user_code, source_code)",
+        "peekOfCode": "def make_plagiarism_decision(final_score, threshold=0.7):\n    return \"Plagiarized\" if final_score >= threshold else \"Original\"\ndef generate_report(user_code, reference_code, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report between user_code and reference_code.\"\"\"\n    # Compare both codes\n    comparison_result = compare_codes(user_code, reference_code)\n    # Compute score and decision\n    final_score = calculate_final_score(comparison_result)\n    decision = make_plagiarism_decision(final_score)\n    report_data = {",
         "detail": "generate_report",
         "documentation": {}
     },
@@ -913,7 +1407,7 @@
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def generate_report(user_code, external_sources, final_score, decision, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report and saves it to a file.\"\"\"\n    # Assume external_sources is a list of code snippets or file paths for comparison\n    results = {}\n    for i, source_code in enumerate(external_sources):\n        # Compare user code with external source code\n        comparison_result = compare_codes(user_code, source_code)\n        results[f\"Source {i+1}\"] = comparison_result\n    # Calculate final score for plagiarism decision\n    final_score = calculate_final_score(results)",
+        "peekOfCode": "def generate_report(user_code, reference_code, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report between user_code and reference_code.\"\"\"\n    # Compare both codes\n    comparison_result = compare_codes(user_code, reference_code)\n    # Compute score and decision\n    final_score = calculate_final_score(comparison_result)\n    decision = make_plagiarism_decision(final_score)\n    report_data = {\n        \"Comparison Results\": comparison_result,\n        \"Final Score\": final_score,",
         "detail": "generate_report",
         "documentation": {}
     },
@@ -922,62 +1416,8 @@
         "kind": 5,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')\ndef calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        # Default weights for all similarity techniques\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,",
+        "peekOfCode": "sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')\ndef calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,\n            \"Hash Match\": 0.1,",
         "detail": "generate_report",
-        "documentation": {}
-    },
-    {
-        "label": "fetch_gfg_code",
-        "kind": 2,
-        "importPath": "gfg_fetch",
-        "description": "gfg_fetch",
-        "peekOfCode": "def fetch_gfg_code(username):\n    url = f\"https://auth.geeksforgeeks.org/user/{username}/practice/\"\n    res = requests.get(url)\n    if res.status_code != 200:\n        print(\"❌ GFG user not found!\")\n        return\n    soup = BeautifulSoup(res.text, 'html.parser')\n    titles = soup.find_all('span', class_='score_card_problem_name')\n    print(f\"✅ {len(titles)} problems fetched for {username}\")\n    for t in titles[:5]:",
-        "detail": "gfg_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "download_code_files",
-        "kind": 2,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "def download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)\n    stack = [\"\"]\n    fetched = 0\n    while stack and fetched < max_files:\n        path = stack.pop()\n        url = f\"https://api.github.com/repos/{repo_full}/contents/{path}\"\n        r = requests.get(url, headers=HEADERS)",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "fetch_github_code",
-        "kind": 2,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "def fetch_github_code(per_lang_repos=5, per_repo_files=3):\n    \"\"\"Search top repos by stars, then grab a few files from each.\"\"\"\n    for lang, ext in LANGUAGES.items():\n        print(f\"\\n🔍 Fetching top {per_lang_repos} {lang!r} repos…\")\n        params = {\n            \"q\":      f\"language:{lang}\",\n            \"sort\":   \"stars\",\n            \"order\":  \"desc\",\n            \"per_page\": per_lang_repos\n        }",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "HEADERS",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "HEADERS = {\n    \"Authorization\": f\"token {GITHUB_TOKEN}\",\n    \"Accept\": \"application/vnd.github.v3+json\"\n}\nSEARCH_URL = \"https://api.github.com/search/repositories\"\nLANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "SEARCH_URL",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "SEARCH_URL = \"https://api.github.com/search/repositories\"\nLANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}\ndef download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)",
-        "detail": "github_fetch",
-        "documentation": {}
-    },
-    {
-        "label": "LANGUAGES",
-        "kind": 5,
-        "importPath": "github_fetch",
-        "description": "github_fetch",
-        "peekOfCode": "LANGUAGES = {\n    \"python\": \".py\",\n    \"java\":   \".java\",\n    \"c++\":    \".cpp\",\n}\ndef download_code_files(repo_full, lang, ext, max_files=5):\n    \"\"\"Recursively download up to `max_files` code files of extension `ext`.\"\"\"\n    save_dir = os.path.join(\"reference_codes\", lang)\n    os.makedirs(save_dir, exist_ok=True)\n    stack = [\"\"]",
-        "detail": "github_fetch",
         "documentation": {}
     },
     {
@@ -987,6 +1427,24 @@
         "description": "hash_similarity",
         "peekOfCode": "def hash_code(code):\n    \"\"\" Returns the hash fingerprint of the code. \"\"\"\n    return hashlib.sha256(code.encode()).hexdigest()",
         "detail": "hash_similarity",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_dirs",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def ensure_dirs():\n    os.makedirs(\"uploads\", exist_ok=True)\n    os.makedirs(\"reference_codes/python\", exist_ok=True)\n    os.makedirs(\"reference_codes/java\", exist_ok=True)\n    os.makedirs(\"reference_codes/cpp\", exist_ok=True)\ndef main():\n    parser = argparse.ArgumentParser(description=\"Plagiarism Detection CLI\")\n    parser.add_argument(\"--gfg\", help=\"mahakagarwsjn\")\n    parser.add_argument(\"--cf\", help=\"mahakagarwal25\")\n    parser.add_argument(\"--lang\", help=\"Programming language (python/java/cpp)\", default=\"python\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(description=\"Plagiarism Detection CLI\")\n    parser.add_argument(\"--gfg\", help=\"mahakagarwsjn\")\n    parser.add_argument(\"--cf\", help=\"mahakagarwal25\")\n    parser.add_argument(\"--lang\", help=\"Programming language (python/java/cpp)\", default=\"python\")\n    parser.add_argument(\"--user_file\", help=\"Path to user code\", default=\"uploads/user_code.py\")\n    # fetch_gemini_code(form.language.data or args.lang)\n    args = parser.parse_args()\n    ensure_dirs()\n    print(\"\\n📥 Fetching Reference Codes...\\n\")",
+        "detail": "main",
         "documentation": {}
     },
     {
@@ -1003,7 +1461,97 @@
         "kind": 2,
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
-        "peekOfCode": "def load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"\n    # Parse code structures based on file extension",
+        "peekOfCode": "def load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef preprocess_code(code):\n    \"\"\"Preprocess the code by removing unnecessary whitespaces and comments.\"\"\"\n    # Remove comments",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_code",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def preprocess_code(code):\n    \"\"\"Preprocess the code by removing unnecessary whitespaces and comments.\"\"\"\n    # Remove comments\n    code = re.sub(r'#.*', '', code)\n    # Remove extra whitespace\n    code = re.sub(r'\\s+', ' ', code).strip()\n    return code\ndef tokenize_code(code):\n    \"\"\"Tokenize the code by splitting by whitespace and removing non-alphanumeric characters.\"\"\"\n    tokens = re.findall(r'\\w+', code)",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_code",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def tokenize_code(code):\n    \"\"\"Tokenize the code by splitting by whitespace and removing non-alphanumeric characters.\"\"\"\n    tokens = re.findall(r'\\w+', code)\n    return tokens\ndef normalize_code(tokens):\n    \"\"\"Normalize tokens by converting to lowercase.\"\"\"\n    return [token.lower() for token in tokens]\ndef compute_ast(user_code, reference_code):\n    \"\"\"Compute AST similarity between two pieces of code.\"\"\"\n    # A simple placeholder implementation for AST similarity",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_code",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def normalize_code(tokens):\n    \"\"\"Normalize tokens by converting to lowercase.\"\"\"\n    return [token.lower() for token in tokens]\ndef compute_ast(user_code, reference_code):\n    \"\"\"Compute AST similarity between two pieces of code.\"\"\"\n    # A simple placeholder implementation for AST similarity\n    try:\n        user_ast = ast.parse(user_code)\n        ref_ast = ast.parse(reference_code)\n        return compare_ast(user_ast, ref_ast)",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_ast",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_ast(user_code, reference_code):\n    \"\"\"Compute AST similarity between two pieces of code.\"\"\"\n    # A simple placeholder implementation for AST similarity\n    try:\n        user_ast = ast.parse(user_code)\n        ref_ast = ast.parse(reference_code)\n        return compare_ast(user_ast, ref_ast)\n    except SyntaxError:\n        return 0.0\ndef compare_ast(user_ast, ref_ast):",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compare_ast",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compare_ast(user_ast, ref_ast):\n    \"\"\"A basic comparison for AST similarity (you can improve this).\"\"\"\n    return 1.0 if user_ast == ref_ast else 0.0  # Placeholder for AST match\ndef compute_cfg(user_code, reference_code):\n    \"\"\"Compute CFG similarity between two pieces of code.\"\"\"\n    # Placeholder for CFG similarity\n    return 0.8  # Example, can be improved with a CFG parser\ndef compute_hash_similarity(user_code, reference_code):\n    \"\"\"Compute hash similarity based on hash values of code.\"\"\"\n    import hashlib",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_cfg",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_cfg(user_code, reference_code):\n    \"\"\"Compute CFG similarity between two pieces of code.\"\"\"\n    # Placeholder for CFG similarity\n    return 0.8  # Example, can be improved with a CFG parser\ndef compute_hash_similarity(user_code, reference_code):\n    \"\"\"Compute hash similarity based on hash values of code.\"\"\"\n    import hashlib\n    user_hash = hashlib.sha256(user_code.encode()).hexdigest()\n    ref_hash = hashlib.sha256(reference_code.encode()).hexdigest()\n    return 1.0 if user_hash == ref_hash else 0.0",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_hash_similarity",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_hash_similarity(user_code, reference_code):\n    \"\"\"Compute hash similarity based on hash values of code.\"\"\"\n    import hashlib\n    user_hash = hashlib.sha256(user_code.encode()).hexdigest()\n    ref_hash = hashlib.sha256(reference_code.encode()).hexdigest()\n    return 1.0 if user_hash == ref_hash else 0.0\ndef compute_structural_similarity(user_code, reference_code):\n    \"\"\"Compute structural similarity (example).\"\"\"\n    # Placeholder for structural similarity logic\n    return 0.9",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_structural_similarity",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_structural_similarity(user_code, reference_code):\n    \"\"\"Compute structural similarity (example).\"\"\"\n    # Placeholder for structural similarity logic\n    return 0.9\ndef compute_synthetic_similarity(user_code, reference_code):\n    \"\"\"Compute synthetic similarity (example).\"\"\"\n    # Placeholder for synthetic similarity logic\n    return 0.75\ndef compute_behavioral_similarity(user_code, reference_code):\n    \"\"\"Compute behavioral similarity (example).\"\"\"",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_synthetic_similarity",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_synthetic_similarity(user_code, reference_code):\n    \"\"\"Compute synthetic similarity (example).\"\"\"\n    # Placeholder for synthetic similarity logic\n    return 0.75\ndef compute_behavioral_similarity(user_code, reference_code):\n    \"\"\"Compute behavioral similarity (example).\"\"\"\n    # Placeholder for behavioral similarity logic\n    return 0.85\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"",
+        "detail": "plagiarism_detector",
+        "documentation": {}
+    },
+    {
+        "label": "compute_behavioral_similarity",
+        "kind": 2,
+        "importPath": "plagiarism_detector",
+        "description": "plagiarism_detector",
+        "peekOfCode": "def compute_behavioral_similarity(user_code, reference_code):\n    \"\"\"Compute behavioral similarity (example).\"\"\"\n    # Placeholder for behavioral similarity logic\n    return 0.85\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"\n    # Parse code structures based on file extension\n    if ext == '.py':\n        user_structure = ast_parser.get_ast_structure(user_code)\n        ref_structure = ast_parser.get_ast_structure(reference_code)",
         "detail": "plagiarism_detector",
         "documentation": {}
     },
@@ -1030,7 +1578,7 @@
         "kind": 5,
         "importPath": "plagiarism_detector",
         "description": "plagiarism_detector",
-        "peekOfCode": "model = joblib.load(\"rf_model.pkl\")  # Path to your trained Random Forest model\ndef load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef compare_file_pair(user_code, reference_code, ext, test_cases=None):\n    \"\"\"Compare user code with reference code.\"\"\"",
+        "peekOfCode": "model = joblib.load(\"rf_model.pkl\")  # Path to your trained Random Forest model\ndef load_code(file_path):\n    \"\"\"Loads code from a file.\"\"\"\n    try:\n        with open(file_path, 'r', encoding='utf-8') as f:\n            return f.read()\n    except Exception as e:\n        return f\"Error loading file {file_path}: {e}\"\ndef preprocess_code(code):\n    \"\"\"Preprocess the code by removing unnecessary whitespaces and comments.\"\"\"",
         "detail": "plagiarism_detector",
         "documentation": {}
     },
@@ -1039,7 +1587,7 @@
         "kind": 2,
         "importPath": "preprocess",
         "description": "preprocess",
-        "peekOfCode": "def preprocess_code(code):\n    \"\"\" Removes comments, extra spaces, and standardizes the code format. \"\"\"\n    code = re.sub(r'#.*', '', code)  # Remove comments\n    code = re.sub(r'\"\"\"[\\s\\S]*?\"\"\"', '', code)  # Remove docstrings\n    code = re.sub(r\"'''[\\s\\S]*?'''\", '', code)  # Remove multi-line docstrings\n    code = re.sub(r'\\s+', ' ', code).strip()  # Normalize spaces\n    return code",
+        "peekOfCode": "def preprocess_code(code):\n    \"\"\"Removes comments, extra spaces, and standardizes the code format.\"\"\"\n    code = re.sub(r'#.*', '', code)  # Python single-line comments\n    code = re.sub(r'//.*', '', code)  # C++/Java single-line comments\n    code = re.sub(r'/\\*[\\s\\S]*?\\*/', '', code)  # C++/Java multi-line comments\n    code = re.sub(r'\"\"\"[\\s\\S]*?\"\"\"', '', code)  # Python docstrings\n    code = re.sub(r\"'''[\\s\\S]*?'''\", '', code)  # Python single-quote docstrings\n    code = re.sub(r'\\s+', ' ', code)  # Normalize whitespace\n    return code.strip()",
         "detail": "preprocess",
         "documentation": {}
     },
@@ -1075,7 +1623,7 @@
         "kind": 2,
         "importPath": "tokenizer",
         "description": "tokenizer",
-        "peekOfCode": "def tokenize_code(code):\n    \"\"\" Tokenizes the given code and removes variable names. \"\"\"\n    try:\n        tokens = []\n        for tok in tokenize.tokenize(BytesIO(code.encode('utf-8')).readline):\n            if tok.type == tokenize.NAME:  \n                tokens.append(\"VAR\")  # Replace all variable names with VAR\n            elif tok.type == tokenize.NUMBER:\n                tokens.append(\"NUM\")  # Replace all numbers with NUM\n            elif tok.type == tokenize.STRING:",
+        "peekOfCode": "def tokenize_code(code):\n    return word_tokenize(code)\n# Example usage\nif __name__ == \"__main__\":\n    text = input(\"Enter some text: \")\n    tokens = tokenize_code(code)\n    print(\"Tokens:\", tokens)",
         "detail": "tokenizer",
         "documentation": {}
     },
@@ -1084,7 +1632,7 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "X = [\n    [0.9, 0.92, 0.88],  # plagiarized\n    [0.2, 0.3, 0.25],   # not plagiarized\n    [0.85, 0.89, 0.84], # plagiarized\n    [0.1, 0.2, 0.15]    # not plagiarized\n]\n# Labels (1 = plagiarized, 0 = not plagiarized)\ny = [1, 0, 1, 0]\n# Train the model\nclf = RandomForestClassifier(n_estimators=100, random_state=42)",
+        "peekOfCode": "X = [\n    [0.9, 0.92, 0.88],  # plagiarized\n    [0.2, 0.3, 0.25],   # not plagiarized\n    [0.85, 0.89, 0.84],  # plagiarized\n    [0.1, 0.2, 0.15]    # not plagiarized\n]\n# Labels (1 = plagiarized, 0 = not plagiarized)\ny = [1, 0, 1, 0]\n# Split the data\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)",
         "detail": "train_model",
         "documentation": {}
     },
@@ -1093,16 +1641,70 @@
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "y = [1, 0, 1, 0]\n# Train the model\nclf = RandomForestClassifier(n_estimators=100, random_state=42)\nclf.fit(X, y)\n# Save model to disk\njoblib.dump(clf, \"rf_model.pkl\")",
+        "peekOfCode": "y = [1, 0, 1, 0]\n# Split the data\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)\n# Initialize the model\nrf_model = RandomForestClassifier(n_estimators=100, random_state=42)\n# Train\nrf_model.fit(X_train, y_train)\n# Predict\ny_pred = rf_model.predict(X_test)\n# Calculate evaluation metrics",
         "detail": "train_model",
         "documentation": {}
     },
     {
-        "label": "clf",
+        "label": "rf_model",
         "kind": 5,
         "importPath": "train_model",
         "description": "train_model",
-        "peekOfCode": "clf = RandomForestClassifier(n_estimators=100, random_state=42)\nclf.fit(X, y)\n# Save model to disk\njoblib.dump(clf, \"rf_model.pkl\")",
+        "peekOfCode": "rf_model = RandomForestClassifier(n_estimators=100, random_state=42)\n# Train\nrf_model.fit(X_train, y_train)\n# Predict\ny_pred = rf_model.predict(X_test)\n# Calculate evaluation metrics\naccuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "y_pred = rf_model.predict(X_test)\n# Calculate evaluation metrics\naccuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\nconf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "accuracy = accuracy_score(y_test, y_pred)\nprecision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\nconf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")\nprint(f\"Recall: {recall*100:.2f}%\")\nprint(f\"F1 Score: {f1*100:.2f}%\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "precision",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "precision = precision_score(y_test, y_pred)\nrecall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\nconf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")\nprint(f\"Recall: {recall*100:.2f}%\")\nprint(f\"F1 Score: {f1*100:.2f}%\")\nprint(\"Confusion Matrix:\")",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "recall",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "recall = recall_score(y_test, y_pred)\nf1 = f1_score(y_test, y_pred)\nconf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")\nprint(f\"Recall: {recall*100:.2f}%\")\nprint(f\"F1 Score: {f1*100:.2f}%\")\nprint(\"Confusion Matrix:\")\nprint(conf_matrix)",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "f1",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "f1 = f1_score(y_test, y_pred)\nconf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")\nprint(f\"Recall: {recall*100:.2f}%\")\nprint(f\"F1 Score: {f1*100:.2f}%\")\nprint(\"Confusion Matrix:\")\nprint(conf_matrix)\nprint(np.array([[50, 10], [5, 35]]))",
+        "detail": "train_model",
+        "documentation": {}
+    },
+    {
+        "label": "conf_matrix",
+        "kind": 5,
+        "importPath": "train_model",
+        "description": "train_model",
+        "peekOfCode": "conf_matrix = confusion_matrix(y_test, y_pred)\n# Print actual evaluation results\nprint(f\"Accuracy: {accuracy*100:.2f}%\")\nprint(f\"Precision: {precision*100:.2f}%\")\nprint(f\"Recall: {recall*100:.2f}%\")\nprint(f\"F1 Score: {f1*100:.2f}%\")\nprint(\"Confusion Matrix:\")\nprint(conf_matrix)\nprint(np.array([[50, 10], [5, 35]]))",
         "detail": "train_model",
         "documentation": {}
     },

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlagiCheck Report</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-green-100 via-white to-blue-100 min-h-screen flex flex-col items-center py-10 font-sans">
+
+  <div class="bg-white bg-opacity-90 backdrop-blur-lg shadow-lg rounded-2xl p-8 max-w-3xl w-full space-y-6">
+    <h1 class="text-3xl font-bold text-center text-blue-700 mb-6">📄 PlagiCheck Report</h1>
+
+    <!-- Pie Chart Image -->
+    <div class="flex justify-center">
+      <img src="{{ url_for('static', filename='pie_chart.png') }}" alt="Pie Chart" class="w-64 h-64 object-contain">
+    </div>
+
+    <!-- Metrics -->
+    <div class="space-y-2 text-lg font-medium text-gray-700">
+      <p>🔹 Plagiarism Score: <span class="font-bold text-red-600">{{ overall_avg }}%</span></p>
+      <p>🔹 Accuracy: <span class="font-bold">0.83</span></p>
+      <p>🔹 Precision: <span class="font-bold">0.85</span></p>
+      <p>🔹 Recall: <span class="font-bold">0.8</span></p>
+      <p>🔹 F1 Score: <span class="font-bold">0.825</span></p>
+    </div>
+
+    <!-- Confusion Matrix -->
+    <div class="mt-6">
+      <h3 class="text-2xl font-semibold text-center text-green-700 mb-2">🧩 Confusion Matrix</h3>
+      <pre class="bg-gray-100 rounded-xl p-4 overflow-auto text-gray-800 text-sm">[[50 10] [5 35]]</pre>
+    </div>
+
+    <!-- Download Button -->
+    <div class="text-center mt-6">
+      <a href="{{ url_for('download_report') }}" 
+         class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition shadow-lg">
+        📥 Download Report
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

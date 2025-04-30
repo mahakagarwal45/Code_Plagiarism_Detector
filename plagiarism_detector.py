@@ -2,6 +2,7 @@ import os
 import joblib
 from language_parsers import ast_parser, cpp_parser, java_parser
 from compare import compare_codes, extract_similarity_features
+import re
 
 # Load the trained Random Forest model
 model = joblib.load("rf_model.pkl")  # Path to your trained Random Forest model
@@ -15,6 +16,63 @@ def load_code(file_path):
     except Exception as e:
         return f"Error loading file {file_path}: {e}"
 
+def preprocess_code(code):
+    """Preprocess the code by removing unnecessary whitespaces and comments."""
+    # Remove comments
+    code = re.sub(r'#.*', '', code)
+    # Remove extra whitespace
+    code = re.sub(r'\s+', ' ', code).strip()
+    return code
+
+def tokenize_code(code):
+    """Tokenize the code by splitting by whitespace and removing non-alphanumeric characters."""
+    tokens = re.findall(r'\w+', code)
+    return tokens
+
+def normalize_code(tokens):
+    """Normalize tokens by converting to lowercase."""
+    return [token.lower() for token in tokens]
+
+def compute_ast(user_code, reference_code):
+    """Compute AST similarity between two pieces of code."""
+    # A simple placeholder implementation for AST similarity
+    try:
+        user_ast = ast.parse(user_code)
+        ref_ast = ast.parse(reference_code)
+        return compare_ast(user_ast, ref_ast)
+    except SyntaxError:
+        return 0.0
+
+def compare_ast(user_ast, ref_ast):
+    """A basic comparison for AST similarity (you can improve this)."""
+    return 1.0 if user_ast == ref_ast else 0.0  # Placeholder for AST match
+
+def compute_cfg(user_code, reference_code):
+    """Compute CFG similarity between two pieces of code."""
+    # Placeholder for CFG similarity
+    return 0.8  # Example, can be improved with a CFG parser
+
+def compute_hash_similarity(user_code, reference_code):
+    """Compute hash similarity based on hash values of code."""
+    import hashlib
+    user_hash = hashlib.sha256(user_code.encode()).hexdigest()
+    ref_hash = hashlib.sha256(reference_code.encode()).hexdigest()
+    return 1.0 if user_hash == ref_hash else 0.0
+
+def compute_structural_similarity(user_code, reference_code):
+    """Compute structural similarity (example)."""
+    # Placeholder for structural similarity logic
+    return 0.9
+
+def compute_synthetic_similarity(user_code, reference_code):
+    """Compute synthetic similarity (example)."""
+    # Placeholder for synthetic similarity logic
+    return 0.75
+
+def compute_behavioral_similarity(user_code, reference_code):
+    """Compute behavioral similarity (example)."""
+    # Placeholder for behavioral similarity logic
+    return 0.85
 
 def compare_file_pair(user_code, reference_code, ext, test_cases=None):
     """Compare user code with reference code."""
