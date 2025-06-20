@@ -1,21 +1,25 @@
-def bucket_type_key(bucket_type):
-    """
-    Registers a function that calculates test item key for the specified bucket type.
-    """
+def add(cls, model, commit=True):
+        """Adds a model instance to session and commits the
+        transaction.
 
-    def decorator(f):
+        Args:
 
-        @functools.wraps(f)
-        def wrapped(item, session):
-            key = f(item)
+            model: The instance to add.
 
-            if session is not None:
-                for handler in session.random_order_bucket_type_key_handlers:
-                    key = handler(item, key)
+        Examples:
 
-            return key
+            >>> customer = Customer.new(name="hari", email="hari@gmail.com")
 
-        bucket_type_keys[bucket_type] = wrapped
-        return wrapped
-
-    return decorator
+            >>> Customer.add(customer)
+            hari@gmail.com
+        """
+        if not isinstance(model, cls):
+            raise ValueError('%s is not of type %s' % (model, cls))
+        cls.session.add(model)
+        try:
+            if commit:
+                cls.session.commit()
+            return model
+        except:
+            cls.session.rollback()
+            rais

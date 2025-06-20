@@ -93,15 +93,6 @@
         "documentation": {}
     },
     {
-        "label": "difflib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "difflib",
-        "description": "difflib",
-        "detail": "difflib",
-        "documentation": {}
-    },
-    {
         "label": "SequenceMatcher",
         "importPath": "difflib",
         "description": "difflib",
@@ -294,27 +285,10 @@
         "documentation": {}
     },
     {
-        "label": "A4",
-        "importPath": "reportlab.lib.pagesizes",
-        "description": "reportlab.lib.pagesizes",
-        "isExtraImport": true,
-        "detail": "reportlab.lib.pagesizes",
-        "documentation": {}
-    },
-    {
-        "label": "canvas",
-        "importPath": "reportlab.pdfgen",
-        "description": "reportlab.pdfgen",
-        "isExtraImport": true,
-        "detail": "reportlab.pdfgen",
-        "documentation": {}
-    },
-    {
-        "label": "io",
-        "kind": 6,
-        "isExtraImport": true,
+        "label": "BytesIO",
         "importPath": "io",
         "description": "io",
+        "isExtraImport": true,
         "detail": "io",
         "documentation": {}
     },
@@ -351,6 +325,38 @@
         "importPath": "csv",
         "description": "csv",
         "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "compare_codes",
+        "importPath": "compare",
+        "description": "compare",
+        "isExtraImport": true,
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "compare_codes",
+        "importPath": "compare",
+        "description": "compare",
+        "isExtraImport": true,
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "extract_similarity_features",
+        "importPath": "compare",
+        "description": "compare",
+        "isExtraImport": true,
+        "detail": "compare",
+        "documentation": {}
+    },
+    {
+        "label": "generate_pdf_report",
+        "importPath": "generate_report",
+        "description": "generate_report",
+        "isExtraImport": true,
+        "detail": "generate_report",
         "documentation": {}
     },
     {
@@ -402,6 +408,22 @@
         "documentation": {}
     },
     {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "A4",
+        "importPath": "reportlab.lib.pagesizes",
+        "description": "reportlab.lib.pagesizes",
+        "isExtraImport": true,
+        "detail": "reportlab.lib.pagesizes",
+        "documentation": {}
+    },
+    {
         "label": "networkx",
         "kind": 6,
         "isExtraImport": true,
@@ -427,22 +449,6 @@
         "documentation": {}
     },
     {
-        "label": "get_ast_structure",
-        "importPath": "language_parsers.ast_parser",
-        "description": "language_parsers.ast_parser",
-        "isExtraImport": true,
-        "detail": "language_parsers.ast_parser",
-        "documentation": {}
-    },
-    {
-        "label": "tokenize_code",
-        "importPath": "tokenizer",
-        "description": "tokenizer",
-        "isExtraImport": true,
-        "detail": "tokenizer",
-        "documentation": {}
-    },
-    {
         "label": "tokenize_code",
         "importPath": "tokenizer",
         "description": "tokenizer",
@@ -459,35 +465,11 @@
         "documentation": {}
     },
     {
-        "label": "normalize_code",
-        "importPath": "normalize",
-        "description": "normalize",
-        "isExtraImport": true,
-        "detail": "normalize",
-        "documentation": {}
-    },
-    {
         "label": "hash_code",
         "importPath": "hash_similarity",
         "description": "hash_similarity",
         "isExtraImport": true,
         "detail": "hash_similarity",
-        "documentation": {}
-    },
-    {
-        "label": "hash_code",
-        "importPath": "hash_similarity",
-        "description": "hash_similarity",
-        "isExtraImport": true,
-        "detail": "hash_similarity",
-        "documentation": {}
-    },
-    {
-        "label": "generate_cfg",
-        "importPath": "cfg_generator",
-        "description": "cfg_generator",
-        "isExtraImport": true,
-        "detail": "cfg_generator",
         "documentation": {}
     },
     {
@@ -619,93 +601,20 @@
         "documentation": {}
     },
     {
-        "label": "json",
+        "label": "matplotlib",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
         "documentation": {}
     },
     {
-        "label": "compare_codes",
-        "importPath": "compare",
-        "description": "compare",
+        "label": "FPDF",
+        "importPath": "fpdf",
+        "description": "fpdf",
         "isExtraImport": true,
-        "detail": "compare",
-        "documentation": {}
-    },
-    {
-        "label": "compare_codes",
-        "importPath": "compare",
-        "description": "compare",
-        "isExtraImport": true,
-        "detail": "compare",
-        "documentation": {}
-    },
-    {
-        "label": "extract_similarity_features",
-        "importPath": "compare",
-        "description": "compare",
-        "isExtraImport": true,
-        "detail": "compare",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_similarity",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_synthetic_similarity",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_structural_similarity",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_synthetic_vs_structural",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_behavioral_similarity",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "visualize_synthetic_vs_structural_vs_behavioral",
-        "importPath": "visualizer",
-        "description": "visualizer",
-        "isExtraImport": true,
-        "detail": "visualizer",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "detail": "fpdf",
         "documentation": {}
     },
     {
@@ -1034,11 +943,11 @@
         "documentation": {}
     },
     {
-        "label": "bucket_type_key",
+        "label": "add",
         "kind": 2,
         "importPath": "uploads.user_code",
         "description": "uploads.user_code",
-        "peekOfCode": "def bucket_type_key(bucket_type):\n    \"\"\"\n    Registers a function that calculates test item key for the specified bucket type.\n    \"\"\"\n    def decorator(f):\n        @functools.wraps(f)\n        def wrapped(item, session):\n            key = f(item)\n            if session is not None:\n                for handler in session.random_order_bucket_type_key_handlers:",
+        "peekOfCode": "def add(cls, model, commit=True):\n        \"\"\"Adds a model instance to session and commits the\n        transaction.\n        Args:\n            model: The instance to add.\n        Examples:\n            >>> customer = Customer.new(name=\"hari\", email=\"hari@gmail.com\")\n            >>> Customer.add(customer)\n            hari@gmail.com\n        \"\"\"",
         "detail": "uploads.user_code",
         "documentation": {}
     },
@@ -1110,7 +1019,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def fetch_reference_codes(language, max_files=10):\n    dataset = load_dataset(\"code_search_net\", language, split=\"train\")\n    samples = dataset.shuffle(seed=42).select(range(max_files))\n    return [sample['code'] for sample in samples]\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"",
+        "peekOfCode": "def fetch_reference_codes(language, max_files=10):\n    dataset = load_dataset(\"code_search_net\", language, split=\"train\")\n    samples = dataset.shuffle(seed=42).select(range(max_files))\n    return [sample['code'] for sample in samples]\n@app.route(\"/\", methods=[\"GET\", \"POST\"])\ndef home():\n    results = None\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}",
         "detail": "app",
         "documentation": {}
     },
@@ -1119,7 +1028,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def home():\n    results = None\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"\n    form = LanguageForm()\n    if form.validate_on_submit():\n        selected_language = form.language.data\n        # Handle the selected language\n        return f\"Selected Language: {selected_language}\"",
+        "peekOfCode": "def home():\n    results = None\n    overall_avg = 0\n    precision = recall = f1 = 0\n    pie_data = {\"original\": 0, \"plagiarized\": 0}\n    predictions = []\n    user_code_path = \"\"\n    form = LanguageForm()\n    if form.validate_on_submit():\n        selected_language = form.language.data",
         "detail": "app",
         "documentation": {}
     },
@@ -1128,7 +1037,7 @@
         "kind": 2,
         "importPath": "app",
         "description": "app",
-        "peekOfCode": "def download_report():\n    overall_avg = report_data[\"overall_avg\"]  # <-- add this line\n    precision = report_data[\"precision\"]\n    recall = report_data[\"recall\"]\n    f1 = report_data[\"f1\"]\n    accuracy = report_data[\"accuracy\"]\n    confusion_matrix = report_data[\"confusion_matrix\"]\n    # Create pie chart\n    pie_labels = ['Original', 'Plagiarized']\n    pie_sizes = [100 - overall_avg, overall_avg]",
+        "peekOfCode": "def download_report():\n    overall_avg = report_data[\"overall_avg\"]\n    precision = report_data[\"precision\"]\n    recall = report_data[\"recall\"]\n    f1 = report_data[\"f1\"]\n    accuracy = report_data[\"accuracy\"]\n    confusion_matrix = report_data[\"confusion_matrix\"]\n    # Create pie chart\n    pie_labels = ['Original', 'Plagiarized']\n    pie_sizes = [100 - overall_avg, overall_avg]",
         "detail": "app",
         "documentation": {}
     },
@@ -1385,38 +1294,20 @@
         "documentation": {}
     },
     {
-        "label": "calculate_final_score",
-        "kind": 2,
+        "label": "PDF",
+        "kind": 6,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,\n            \"Hash Match\": 0.1,\n            \"Synthetic Similarity\": 0.15,",
+        "peekOfCode": "class PDF(FPDF):\n    def header(self):\n        self.set_font(\"Arial\", \"B\", 16)\n        self.cell(0, 10, \"Code Plagiarism Report\", 0, 1, \"C\")\n        self.ln(5)\n    def add_image(self, path, title):\n        if os.path.exists(path):\n            self.set_font(\"Arial\", \"B\", 12)\n            self.cell(0, 10, title, ln=True)\n            self.image(path, w=180)",
         "detail": "generate_report",
         "documentation": {}
     },
     {
-        "label": "make_plagiarism_decision",
+        "label": "generate_pdf_report",
         "kind": 2,
         "importPath": "generate_report",
         "description": "generate_report",
-        "peekOfCode": "def make_plagiarism_decision(final_score, threshold=0.7):\n    return \"Plagiarized\" if final_score >= threshold else \"Original\"\ndef generate_report(user_code, reference_code, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report between user_code and reference_code.\"\"\"\n    # Compare both codes\n    comparison_result = compare_codes(user_code, reference_code)\n    # Compute score and decision\n    final_score = calculate_final_score(comparison_result)\n    decision = make_plagiarism_decision(final_score)\n    report_data = {",
-        "detail": "generate_report",
-        "documentation": {}
-    },
-    {
-        "label": "generate_report",
-        "kind": 2,
-        "importPath": "generate_report",
-        "description": "generate_report",
-        "peekOfCode": "def generate_report(user_code, reference_code, file_path=\"plagiarism_report.json\"):\n    \"\"\"Generates a plagiarism report between user_code and reference_code.\"\"\"\n    # Compare both codes\n    comparison_result = compare_codes(user_code, reference_code)\n    # Compute score and decision\n    final_score = calculate_final_score(comparison_result)\n    decision = make_plagiarism_decision(final_score)\n    report_data = {\n        \"Comparison Results\": comparison_result,\n        \"Final Score\": final_score,",
-        "detail": "generate_report",
-        "documentation": {}
-    },
-    {
-        "label": "sys.stdout",
-        "kind": 5,
-        "importPath": "generate_report",
-        "description": "generate_report",
-        "peekOfCode": "sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')\ndef calculate_final_score(results, weights=None):\n    \"\"\"Calculates the final similarity score by aggregating weighted scores.\"\"\"\n    if weights is None:\n        weights = {\n            \"AST Match\": 0.2,\n            \"CFG Match\": 0.15,\n            \"Token Match\": 0.15,\n            \"Text Similarity Score\": 0.1,\n            \"Hash Match\": 0.1,",
+        "peekOfCode": "def generate_pdf_report(final_score, precision, recall, f1, accuracy, confusion_matrix, report_path=\"plagiarism_report.pdf\"):\n    # Generate pie chart\n    pie_labels = ['Original', 'Plagiarized']\n    pie_sizes = [100 - final_score, final_score]\n    pie_colors = ['#4CAF50', '#F44336']\n    plt.figure(figsize=(4, 4))\n    plt.pie(pie_sizes, labels=pie_labels, colors=pie_colors, autopct='%1.1f%%', startangle=140)\n    plt.axis('equal')\n    pie_path = \"static/pie_chart.png\"\n    plt.savefig(pie_path)",
         "detail": "generate_report",
         "documentation": {}
     },

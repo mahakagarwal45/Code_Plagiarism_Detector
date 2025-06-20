@@ -1,15 +1,18 @@
-// #include <iostream>
-// #include <vector>
-// using namespace std;
-
-// void reverseArray(vector<int>& arr) {
-//     int start = 0, end = arr.size() - 1;
-//     while (start < end) swap(arr[start++], arr[end--]);
-// }
-
-// int main() {
-//     vector<int> arr = {1, 2, 3, 4, 5};
-//     reverseArray(arr);
-//     for (int num : arr) cout << num << " ";
-//     return 0;
-// }
+class Solution {
+    public:
+      int majorityElement(vector<int>& arr) {
+          // code here
+             map <int , int> mp ;
+             int size = arr.size();
+          for(int i = 0; i<size ; i++){
+              mp[arr[i]]++;
+          }
+          
+          for(auto it:mp){
+              if(it.second > size/2)
+              return it.first;
+          }
+          
+            return -1;
+      }
+  };

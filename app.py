@@ -1,11 +1,13 @@
 from flask import Flask, render_template, request, send_file
 import os
-from reportlab.lib.pagesizes import A4
-from reportlab.pdfgen import canvas
+# from reportlab.lib.pagesizes import A4
+# from reportlab.pdfgen import canvas
 from io import BytesIO
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
+from compare import compare_codes
+from generate_report import generate_pdf_report
 import requests
 from plagiarism_detector import detect_plagiarism
 from fetchers.github_fetch import fetch_github_code
@@ -13,6 +15,9 @@ from datasets import load_dataset
 from flask_wtf import FlaskForm
 from wtforms import Form, SelectField
 from wtforms.validators import DataRequired
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import A4
+from io import BytesIO
 report_data = {
     "overall_avg": 0,
     "precision": 85,
@@ -98,6 +103,8 @@ def fetch_reference_codes(language, max_files=10):
 @app.route("/", methods=["GET", "POST"])
 def home():
     results = None
+    overall_avg = 0
+    precision = recall = f1 = 0
     pie_data = {"original": 0, "plagiarized": 0}
     predictions = []
     user_code_path = ""
@@ -173,7 +180,7 @@ def home():
     )
 @app.route("/download_report")
 def download_report():
-    overall_avg = report_data["overall_avg"]  # <-- add this line
+    overall_avg = report_data["overall_avg"]
     precision = report_data["precision"]
     recall = report_data["recall"]
     f1 = report_data["f1"]
@@ -237,7 +244,6 @@ def download_report():
     # Clean up images
     os.remove(pie_chart_path)
     os.remove(confusion_matrix_path)
-
     return send_file(buffer, as_attachment=True, download_name="plagiarism_report.pdf", mimetype='application/pdf')
 
 @app.route("/codeforces", methods=["GET", "POST"])

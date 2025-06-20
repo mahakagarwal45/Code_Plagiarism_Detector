@@ -1,2 +1,4 @@
-int sum =7+2;
-cout<<sum;
+def add(a,b):
+       sum = a+b
+       print(sum)
+add(4,2)
